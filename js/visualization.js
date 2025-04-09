@@ -14,7 +14,7 @@ const config = {
     kingdomHeight: 100,
     phylumBarHeight: 30,
     detailsHeight: 250,
-    spacing: 0,
+    spacing: 20,
     transitionDuration: 500,
     maxSpecies: 5,
     maxCountries: 5
@@ -263,6 +263,8 @@ function createVisualization() {
             .style('fill', 'white')
             .style('font-size', '10px')
             .style('text-anchor', 'start')
+            .style('cursor', 'pointer')
+            .on('click', (event, d) => togglePhylumDetails(d))
             .on('mouseover', (event, d) => {
                 const name = getDisplayName(d.phylum, 'phylum');
                 const percentage = ((+d.occurrence_count / total) * 100).toFixed(1);
