@@ -54,14 +54,6 @@ async function init() {
             d3.json('data/common-names.json')
         ]);
 
-        console.log('Loaded data:', {
-            kingdoms: kingdomsData,
-            phyla: phylaData,
-            species: speciesData,
-            countries: countriesData,
-            commonNames: commonNamesData
-        });
-
         // Store data
         kingdoms = kingdomsData || [];
         phyla = phylaData || [];
@@ -92,7 +84,6 @@ async function init() {
 
         // Create scales
         const maxOccurrences = d3.max(kingdoms, d => +d.occurrence_count);
-        console.log('Max occurrences:', maxOccurrences);
 
         xScale = d3.scaleLinear()
             .domain([0, maxOccurrences])
@@ -100,7 +91,6 @@ async function init() {
 
         // Initialize color scale
         const phylumNames = phyla.map(d => d.phylum);
-        console.log('Phylum names:', phylumNames);
 
         if (!phylumNames.length) {
             throw new Error('No valid phylum names found');
@@ -324,20 +314,15 @@ function togglePhylumDetails(phylum) {
  * Update details view
  */
 function updateDetails() {
-    console.log('Updating details for expanded phyla:', expandedPhyla);
-    
     // Clear existing details
     detailsGroup.selectAll('*').remove();
 
     // Get expanded phyla
     const expanded = phyla.filter(p => expandedPhyla.has(p.phylum));
-    console.log('Expanded phyla data:', expanded);
 
     // Create details for each expanded phylum
     expanded.forEach((phylum, index) => {
-        console.log('Processing phylum:', phylum);
         const yOffset = getYOffset(phylum) - 40; // Move details up by 40px
-        console.log('Y offset:', yOffset);
         
         // Add phylum title and counts
         const titleGroup = detailsGroup.append('g')
@@ -348,14 +333,6 @@ function updateDetails() {
         const totalOccurrences = formatNumber(phylum.occurrence_count);
         const totalIndividuals = formatNumber(phylum.individual_count);
         const description = commonNames.phyla[phylum.phylum]?.description || '';
-
-        console.log('Phylum details:', {
-            commonName,
-            scientificName,
-            totalOccurrences,
-            totalIndividuals,
-            description
-        });
 
         titleGroup.append('text')
             .attr('class', 'phylum-title')
@@ -389,24 +366,15 @@ function updateDetails() {
  * Create species chart
  */
 function createSpeciesChart(phylum, yOffset) {
-    console.log('Creating species chart for:', phylum.phylum);
     const phylumSpecies = species.filter(s => s.phylum === phylum.phylum)
         .sort((a, b) => +b.occurrence_count - +a.occurrence_count);
-
-    console.log('Filtered species:', phylumSpecies);
 
     const topSpecies = phylumSpecies.slice(0, config.maxSpecies);
     const topSpeciesSum = topSpecies.reduce((sum, s) => sum + +s.occurrence_count, 0);
     const otherCount = +phylum.occurrence_count - topSpeciesSum;
 
-    console.log('Total phylum occurrences:', phylum.occurrence_count);
-    console.log('Top species sum:', topSpeciesSum);
-    console.log('Other count:', otherCount);
-
     const data = [...topSpecies, { species: 'Other', occurrence_count: otherCount }];
     const total = +phylum.occurrence_count;
-
-    console.log('Species chart data:', data);
 
     const chartWidth = config.width / 2 - config.margin.left - config.margin.right;
     const chartHeight = 150;
@@ -473,24 +441,15 @@ function createSpeciesChart(phylum, yOffset) {
  * Create country chart
  */
 function createCountryChart(phylum, yOffset) {
-    console.log('Creating country chart for:', phylum.phylum);
     const phylumCountries = countries.filter(c => c.phylum === phylum.phylum)
         .sort((a, b) => +b.occurrence_count - +a.occurrence_count);
-
-    console.log('Filtered countries:', phylumCountries);
 
     const topCountries = phylumCountries.slice(0, config.maxCountries);
     const topCountriesSum = topCountries.reduce((sum, c) => sum + +c.occurrence_count, 0);
     const otherCount = +phylum.occurrence_count - topCountriesSum;
 
-    console.log('Total phylum occurrences:', phylum.occurrence_count);
-    console.log('Top countries sum:', topCountriesSum);
-    console.log('Other count:', otherCount);
-
     const data = [...topCountries, { country: 'Other', occurrence_count: otherCount }];
     const total = +phylum.occurrence_count;
-
-    console.log('Country chart data:', data);
 
     const chartWidth = 200;
     const chartHeight = 150;
