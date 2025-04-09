@@ -1,0 +1,630 @@
+{
+    "phyla": {
+        "Arthropoda": {
+            "common_name": "Arthropods",
+            "description": "Includes insects, spiders, crustaceans, and other jointed-legged animals"
+        },
+        "Chordata": {
+            "common_name": "Chordates",
+            "description": "Includes vertebrates (mammals, birds, fish, reptiles, amphibians) and some invertebrates"
+        },
+        "Mollusca": {
+            "common_name": "Mollusks",
+            "description": "Includes snails, clams, squids, and octopuses"
+        },
+        "Annelida": {
+            "common_name": "Segmented Worms",
+            "description": "Includes earthworms, leeches, and marine worms"
+        },
+        "Cnidaria": {
+            "common_name": "Cnidarians",
+            "description": "Includes jellyfish, corals, and sea anemones"
+        },
+        "Echinodermata": {
+            "common_name": "Echinoderms",
+            "description": "Includes starfish, sea urchins, and sea cucumbers"
+        },
+        "Platyhelminthes": {
+            "common_name": "Flatworms",
+            "description": "Includes tapeworms and flukes"
+        },
+        "Nematoda": {
+            "common_name": "Roundworms",
+            "description": "Includes many parasitic and free-living worms"
+        },
+        "Porifera": {
+            "common_name": "Sponges",
+            "description": "Simple aquatic animals with porous bodies"
+        },
+        "Bryozoa": {
+            "common_name": "Moss Animals",
+            "description": "Colonial aquatic invertebrates"
+        },
+        "Brachiopoda": {
+            "common_name": "Lamp Shells",
+            "description": "Marine animals with two shells"
+        },
+        "Hemichordata": {
+            "common_name": "Acorn Worms",
+            "description": "Marine worms with some chordate characteristics"
+        },
+        "Ascomycota": {
+            "common_name": "Sac Fungi",
+            "description": "Largest phylum of fungi, including yeasts and molds"
+        },
+        "Basidiomycota": {
+            "common_name": "Club Fungi",
+            "description": "Includes mushrooms, puffballs, and rusts"
+        },
+        "Cyanobacteria": {
+            "common_name": "Blue-green Algae",
+            "description": "Photosynthetic bacteria that produce oxygen"
+        },
+        "Proteobacteria": {
+            "common_name": "Proteobacteria",
+            "description": "Large group of gram-negative bacteria including many pathogens"
+        },
+        "Firmicutes": {
+            "common_name": "Firmicutes",
+            "description": "Group of bacteria including many beneficial gut bacteria"
+        },
+        "Bacteroidota": {
+            "common_name": "Bacteroidetes",
+            "description": "Group of bacteria important in human gut microbiome"
+        },
+        "Actinobacteriota": {
+            "common_name": "Actinobacteria",
+            "description": "Group of bacteria including many soil bacteria and antibiotic producers"
+        },
+        "Chlorophyta": {
+            "common_name": "Green Algae",
+            "description": "Photosynthetic algae found in freshwater and marine environments"
+        },
+        "Rhodophyta": {
+            "common_name": "Red Algae",
+            "description": "Marine algae often found in deeper waters"
+        },
+        "Tracheophyta": {
+            "common_name": "Vascular Plants",
+            "description": "Plants with vascular tissue, including ferns and seed plants"
+        },
+        "Bryophyta": {
+            "common_name": "Mosses",
+            "description": "Small, non-vascular plants that grow in damp environments"
+        },
+        "Marchantiophyta": {
+            "common_name": "Liverworts",
+            "description": "Simple, non-vascular plants similar to mosses"
+        },
+        "Ciliophora": {
+            "common_name": "Ciliates",
+            "description": "Single-celled organisms with hair-like cilia for movement"
+        },
+        "Foraminifera": {
+            "common_name": "Forams",
+            "description": "Single-celled organisms with calcium carbonate shells"
+        },
+        "Haptophyta": {
+            "common_name": "Haptophytes",
+            "description": "Marine algae including coccolithophores"
+        },
+        "Ochrophyta": {
+            "common_name": "Brown Algae",
+            "description": "Includes kelp and other large marine algae"
+        },
+        "Oomycota": {
+            "common_name": "Water Molds",
+            "description": "Fungus-like organisms that cause plant diseases"
+        },
+        "Chytridiomycota": {
+            "common_name": "Chytrids",
+            "description": "Simple fungi that can cause amphibian diseases"
+        },
+        "Glomeromycota": {
+            "common_name": "Arbuscular Mycorrhizal Fungi",
+            "description": "Fungi that form symbiotic relationships with plant roots"
+        },
+        "Mucoromycota": {
+            "common_name": "Mucorales",
+            "description": "Fungi including bread molds and some pathogens"
+        },
+        "Thermoproteota": {
+            "common_name": "Thermoproteota",
+            "description": "Heat-loving archaea found in extreme environments"
+        },
+        "Halobacteriota": {
+            "common_name": "Halobacteria",
+            "description": "Salt-loving archaea found in hypersaline environments"
+        },
+        "Nitrospirota": {
+            "common_name": "Nitrospirae",
+            "description": "Bacteria involved in nitrogen cycling"
+        },
+        "Planctomycetota": {
+            "common_name": "Planctomycetes",
+            "description": "Bacteria with unique cell structure and metabolism"
+        },
+        "Verrucomicrobiota": {
+            "common_name": "Verrucomicrobia",
+            "description": "Bacteria found in soil and aquatic environments"
+        },
+        "Spirochaetota": {
+            "common_name": "Spirochetes",
+            "description": "Spiral-shaped bacteria including some pathogens"
+        },
+        "Myxococcota": {
+            "common_name": "Myxobacteria",
+            "description": "Bacteria that form fruiting bodies and move in swarms"
+        },
+        "Acanthocephala": {
+            "common_name": "Spiny-headed Worms",
+            "description": "Parasitic worms with spiny proboscis"
+        },
+        "Chaetognatha": {
+            "common_name": "Arrow Worms",
+            "description": "Small marine predators with transparent bodies"
+        },
+        "Ctenophora": {
+            "common_name": "Comb Jellies",
+            "description": "Marine animals with rows of cilia"
+        },
+        "Cycliophora": {
+            "common_name": "Cycliophorans",
+            "description": "Tiny marine animals found on lobster mouthparts"
+        },
+        "Dicyemida": {
+            "common_name": "Dicyemids",
+            "description": "Parasitic animals found in cephalopod kidneys"
+        },
+        "Entoprocta": {
+            "common_name": "Goblet Worms",
+            "description": "Small aquatic animals with tentacles"
+        },
+        "Gastrotricha": {
+            "common_name": "Hairy-bellied Worms",
+            "description": "Microscopic aquatic animals"
+        },
+        "Gnathostomulida": {
+            "common_name": "Jaw Worms",
+            "description": "Small marine worms with complex jaws"
+        },
+        "Kinorhyncha": {
+            "common_name": "Mud Dragons",
+            "description": "Microscopic marine animals"
+        },
+        "Loricifera": {
+            "common_name": "Girdle Wearers",
+            "description": "Microscopic marine animals with protective lorica"
+        },
+        "Micrognathozoa": {
+            "common_name": "Micrognathozoans",
+            "description": "Tiny animals with complex jaws"
+        },
+        "Nematomorpha": {
+            "common_name": "Horsehair Worms",
+            "description": "Long, thin parasitic worms"
+        },
+        "Nemertea": {
+            "common_name": "Ribbon Worms",
+            "description": "Long, unsegmented worms with proboscis"
+        },
+        "Onychophora": {
+            "common_name": "Velvet Worms",
+            "description": "Terrestrial animals with many legs"
+        },
+        "Orthonectida": {
+            "common_name": "Orthonectids",
+            "description": "Parasitic marine animals"
+        },
+        "Phoronida": {
+            "common_name": "Horseshoe Worms",
+            "description": "Marine animals with U-shaped gut"
+        },
+        "Placozoa": {
+            "common_name": "Placozoans",
+            "description": "Simple marine animals with few cell types"
+        },
+        "Priapulida": {
+            "common_name": "Penis Worms",
+            "description": "Marine worms with retractable proboscis"
+        },
+        "Rotifera": {
+            "common_name": "Rotifers",
+            "description": "Microscopic animals with ciliated corona"
+        },
+        "Sipuncula": {
+            "common_name": "Peanut Worms",
+            "description": "Marine worms that can retract into peanut shape"
+        },
+        "Tardigrada": {
+            "common_name": "Water Bears",
+            "description": "Microscopic animals known for extreme survival"
+        },
+        "Xenacoelomorpha": {
+            "common_name": "Xenacoelomorphs",
+            "description": "Simple marine worms"
+        },
+        "Aenigmatarchaeota": {
+            "common_name": "Aenigmatarchaeota",
+            "description": "Recently discovered group of archaea"
+        },
+        "Altiarchaeota": {
+            "common_name": "Altiarchaeota",
+            "description": "Archaea found in deep subsurface environments"
+        },
+        "Asgardarchaeota": {
+            "common_name": "Asgardarchaeota",
+            "description": "Archaea that may be ancestors of eukaryotes"
+        },
+        "Hadarchaeota": {
+            "common_name": "Hadarchaeota",
+            "description": "Archaea found in deep subsurface environments"
+        },
+        "Huberarchaeota": {
+            "common_name": "Huberarchaeota",
+            "description": "Archaea found in hydrothermal environments"
+        },
+        "Hydrothermarchaeota": {
+            "common_name": "Hydrothermarchaeota",
+            "description": "Archaea found in hydrothermal vents"
+        },
+        "Iainarchaeota": {
+            "common_name": "Iainarchaeota",
+            "description": "Archaea found in deep subsurface environments"
+        },
+        "Methanobacteriota": {
+            "common_name": "Methanogens",
+            "description": "Archaea that produce methane"
+        },
+        "Micrarchaeota": {
+            "common_name": "Micrarchaeota",
+            "description": "Small archaea found in various environments"
+        },
+        "Nanoarchaeota": {
+            "common_name": "Nanoarchaeota",
+            "description": "Very small archaea that live on other archaea"
+        },
+        "Nanohaloarchaeota": {
+            "common_name": "Nanohaloarchaeota",
+            "description": "Small archaea found in hypersaline environments"
+        },
+        "Thermoplasmatota": {
+            "common_name": "Thermoplasmatota",
+            "description": "Acid-loving archaea found in hot springs"
+        }
+    },
+    "species": {
+        "Homo sapiens": {
+            "common_name": "Human",
+            "description": "Modern humans"
+        },
+        "Canis lupus": {
+            "common_name": "Gray Wolf",
+            "description": "Wild canid species"
+        },
+        "Ursus arctos": {
+            "common_name": "Brown Bear",
+            "description": "Large bear species"
+        },
+        "Panthera leo": {
+            "common_name": "Lion",
+            "description": "Large cat species"
+        },
+        "Elephas maximus": {
+            "common_name": "Asian Elephant",
+            "description": "Large land mammal"
+        },
+        "Balaenoptera musculus": {
+            "common_name": "Blue Whale",
+            "description": "Largest animal on Earth"
+        },
+        "Falco peregrinus": {
+            "common_name": "Peregrine Falcon",
+            "description": "Fastest bird in the world"
+        },
+        "Python regius": {
+            "common_name": "Ball Python",
+            "description": "Popular pet snake species"
+        },
+        "Danaus plexippus": {
+            "common_name": "Monarch Butterfly",
+            "description": "Migratory butterfly species"
+        },
+        "Apis mellifera": {
+            "common_name": "Western Honey Bee",
+            "description": "Common honey-producing bee"
+        },
+        "Anas platyrhynchos": {
+            "common_name": "Mallard",
+            "description": "Common dabbling duck"
+        },
+        "Zenaida macroura": {
+            "common_name": "Mourning Dove",
+            "description": "Common North American dove"
+        },
+        "Turdus migratorius": {
+            "common_name": "American Robin",
+            "description": "Common North American thrush"
+        },
+        "Corvus brachyrhynchos": {
+            "common_name": "American Crow",
+            "description": "Common North American crow"
+        },
+        "Sturnus vulgaris": {
+            "common_name": "European Starling",
+            "description": "Introduced bird species in North America"
+        },
+        "Mycobacterium tuberculosis": {
+            "common_name": "Tuberculosis Bacterium",
+            "description": "Causes tuberculosis in humans"
+        },
+        "Campylobacter jejuni": {
+            "common_name": "Campylobacter",
+            "description": "Common cause of foodborne illness"
+        },
+        "Helicobacter pylori": {
+            "common_name": "H. pylori",
+            "description": "Bacterium associated with stomach ulcers"
+        },
+        "Nostoc commune": {
+            "common_name": "Star Jelly",
+            "description": "Cyanobacterium forming gelatinous colonies"
+        },
+        "Xanthoria parietina": {
+            "common_name": "Common Orange Lichen",
+            "description": "Yellow-orange foliose lichen"
+        },
+        "Amanita muscaria": {
+            "common_name": "Fly Agaric",
+            "description": "Iconic red and white mushroom"
+        },
+        "Hypnum cupressiforme": {
+            "common_name": "Cypress-leaved Plait-moss",
+            "description": "Common moss species"
+        },
+        "Chara vulgaris": {
+            "common_name": "Common Stonewort",
+            "description": "Freshwater green alga"
+        },
+        "Cladophora glomerata": {
+            "common_name": "River Weed",
+            "description": "Filamentous green alga"
+        },
+        "Maniola jurtina": {
+            "common_name": "Meadow Brown",
+            "description": "Common European butterfly"
+        },
+        "Pieris rapae": {
+            "common_name": "Small White",
+            "description": "Common butterfly also known as cabbage white"
+        },
+        "Pararge aegeria": {
+            "common_name": "Speckled Wood",
+            "description": "Woodland butterfly with distinctive wing patterns"
+        },
+        "Vanessa atalanta": {
+            "common_name": "Red Admiral",
+            "description": "Colorful butterfly with distinctive red bands"
+        },
+        "Aglais io": {
+            "common_name": "Peacock",
+            "description": "Butterfly with eye-like patterns on wings"
+        },
+        "Human immunodeficiency virus 1": {
+            "common_name": "HIV-1",
+            "description": "Virus that causes AIDS"
+        },
+        "Simian immunodeficiency virus": {
+            "common_name": "SIV",
+            "description": "Virus related to HIV found in primates"
+        },
+        "Bovine leukemia virus": {
+            "common_name": "BLV",
+            "description": "Virus that causes leukemia in cattle"
+        },
+        "Hepatitis B virus": {
+            "common_name": "HBV",
+            "description": "Virus that causes hepatitis B"
+        },
+        "Avian leukosis virus": {
+            "common_name": "ALV",
+            "description": "Virus that causes cancer in birds"
+        },
+        "Lobaria pulmonaria": {
+            "common_name": "Lungwort Lichen",
+            "description": "Large foliose lichen that grows on trees"
+        },
+        "Alectoria sarmentosa": {
+            "common_name": "Witch's Hair",
+            "description": "Hanging lichen found in old-growth forests"
+        },
+        "Parmelia sulcata": {
+            "common_name": "Hammered Shield Lichen",
+            "description": "Common foliose lichen with distinctive ridges"
+        },
+        "Hypogymnia physodes": {
+            "common_name": "Monk's Hood Lichen",
+            "description": "Hollow-tubed lichen common on trees"
+        },
+        "Brachythecium rutabulum": {
+            "common_name": "Rough-stalked Feather-moss",
+            "description": "Common moss found in woodlands"
+        },
+        "Dicranum scoparium": {
+            "common_name": "Broom Fork-moss",
+            "description": "Tufted moss with distinctive curved leaves"
+        },
+        "Pleurozium schreberi": {
+            "common_name": "Red-stemmed Feather-moss",
+            "description": "Common moss forming large mats in forests"
+        },
+        "Calliergonella cuspidata": {
+            "common_name": "Pointed Spear-moss",
+            "description": "Moss with distinctive pointed leaves"
+        },
+        "Einhornia crustulenta": {
+            "common_name": "Crusty Bryozoan",
+            "description": "Colonial marine animal forming crust-like colonies"
+        },
+        "Electra pilosa": {
+            "common_name": "Hairy Bryozoan",
+            "description": "Marine animal forming hairy-looking colonies"
+        },
+        "Flustra foliacea": {
+            "common_name": "Hornwrack",
+            "description": "Marine bryozoan forming leaf-like colonies"
+        },
+        "Alcyonidium diaphanum": {
+            "common_name": "Sea Mat",
+            "description": "Gelatinous marine bryozoan"
+        },
+        "Membranipora membranacea": {
+            "common_name": "Lacy Crust Bryozoan",
+            "description": "Marine animal forming lacy colonies"
+        },
+        "Spiophanes kroyeri": {
+            "common_name": "Kroyer's Spiophanes",
+            "description": "Marine polychaete worm"
+        },
+        "Paramphinome jeffreysii": {
+            "common_name": "Jeffreys' Ampharetid",
+            "description": "Deep-sea polychaete worm"
+        },
+        "Galathowenia oculata": {
+            "common_name": "Eyed Galathowenia",
+            "description": "Marine polychaete worm"
+        },
+        "Scoloplos armiger": {
+            "common_name": "Armed Scoloplos",
+            "description": "Marine polychaete worm"
+        },
+        "Goniada maculata": {
+            "common_name": "Spotted Goniada",
+            "description": "Marine polychaete worm"
+        },
+        "Anthoceros punctatus": {
+            "common_name": "Spotted Hornwort",
+            "description": "Small non-vascular plant"
+        },
+        "Phaeoceros laevis": {
+            "common_name": "Smooth Hornwort",
+            "description": "Small non-vascular plant"
+        },
+        "Phaeoceros carolinianus": {
+            "common_name": "Carolina Hornwort",
+            "description": "Small non-vascular plant"
+        },
+        "Anthoceros agrestis": {
+            "common_name": "Field Hornwort",
+            "description": "Small non-vascular plant"
+        },
+        "Notothylas orbicularis": {
+            "common_name": "Round Hornwort",
+            "description": "Small non-vascular plant"
+        },
+        "Aquifex aeolicus": {
+            "common_name": "Aeolicus Aquifex",
+            "description": "Hyperthermophilic bacterium"
+        },
+        "Phorcysia thermohydrogeniphila": {
+            "common_name": "Thermohydrogeniphila",
+            "description": "Thermophilic bacterium"
+        },
+        "Thermovibrio ruber": {
+            "common_name": "Red Thermovibrio",
+            "description": "Thermophilic bacterium"
+        },
+        "Desulfurobacterium thermolithotrophum": {
+            "common_name": "Thermolithotrophum",
+            "description": "Thermophilic sulfur-reducing bacterium"
+        },
+        "Hydrogenobacter thermophilus": {
+            "common_name": "Thermophilic Hydrogenobacter",
+            "description": "Thermophilic hydrogen-oxidizing bacterium"
+        },
+        "Fimbriimonas ginsengisoli": {
+            "common_name": "Ginseng Soil Fimbriimonas",
+            "description": "Bacterium found in ginseng soil"
+        },
+        "Armatimonas rosea": {
+            "common_name": "Rose Armatimonas",
+            "description": "Pink-pigmented bacterium"
+        },
+        "Chthonomonas calidirosea": {
+            "common_name": "Hot Rose Chthonomonas",
+            "description": "Thermophilic pink-pigmented bacterium"
+        },
+        "Flavobacterium psychrophilum": {
+            "common_name": "Cold-loving Flavobacterium",
+            "description": "Psychrophilic fish pathogen"
+        },
+        "Lewinella nigricans": {
+            "common_name": "Black Lewinella",
+            "description": "Marine bacterium"
+        },
+        "Lewinella cohaerens": {
+            "common_name": "Coherent Lewinella",
+            "description": "Marine bacterium"
+        },
+        "Aureitalea marina": {
+            "common_name": "Marine Aureitalea",
+            "description": "Marine bacterium"
+        },
+        "Bernardetia litoralis": {
+            "common_name": "Coastal Bernardetia",
+            "description": "Marine bacterium"
+        },
+        "Trametes versicolor": {
+            "common_name": "Turkey Tail",
+            "description": "Colorful bracket fungus"
+        },
+        "Fomes fomentarius": {
+            "common_name": "Tinder Fungus",
+            "description": "Bracket fungus used as tinder"
+        },
+        "Fomitopsis betulina": {
+            "common_name": "Birch Polypore",
+            "description": "Bracket fungus growing on birch trees"
+        },
+        "Fomitopsis pinicola": {
+            "common_name": "Red-belted Conk",
+            "description": "Bracket fungus growing on conifers"
+        },
+        "Bdellovibrio bacteriovorus": {
+            "common_name": "Bdellovibrio",
+            "description": "Bacterium that preys on other bacteria"
+        },
+        "Pseudobacteriovorax antillogorgiicola": {
+            "common_name": "Antillogorgia Bdellovibrio",
+            "description": "Bacterium that preys on other bacteria"
+        },
+        "Oligoflexus tunisiensis": {
+            "common_name": "Tunisian Oligoflexus",
+            "description": "Bacterium found in Tunisian soil"
+        },
+        "Bdellovibrio exovorus": {
+            "common_name": "Exovorous Bdellovibrio",
+            "description": "Bacterium that preys on other bacteria"
+        },
+        "Pseudobodo tremulans": {
+            "common_name": "Trembling Pseudobodo",
+            "description": "Marine flagellate"
+        },
+        "Thraustochytrium kinnei": {
+            "common_name": "Kinne's Thraustochytrium",
+            "description": "Marine protist"
+        },
+        "Caecitellus parvulus": {
+            "common_name": "Small Caecitellus",
+            "description": "Marine protist"
+        },
+        "Aplanochytrium minuta": {
+            "common_name": "Minute Aplanochytrium",
+            "description": "Marine protist"
+        },
+        "Schizochytrium minutum": {
+            "common_name": "Minute Schizochytrium",
+            "description": "Marine protist"
+        }
+    }
+} 
