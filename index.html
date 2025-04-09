@@ -3,26 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodiversity Observation Visualization</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Biodiversity Data Visualization</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        #visualization {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .kingdom-title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        #tooltip {
+            position: absolute;
+            visibility: hidden;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+            pointer-events: none;
+            z-index: 100;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Biodiversity Observation Data</h1>
-        <div class="disclaimer">
-            Note: This visualization shows observation frequency, not actual species abundance or distribution.
-            The data reflects sampling effort and may be biased towards more easily observable species.
-        </div>
-        <div id="main-visualization"></div>
-        <div id="details-panel">
-            <div id="selected-phylum-info"></div>
-            <div class="charts-container">
-                <div id="species-chart"></div>
-                <div id="countries-chart"></div>
-            </div>
-        </div>
-    </div>
+    <div id="visualization"></div>
+    <div id="tooltip"></div>
     <script src="js/visualization.js"></script>
 </body>
 </html> 
