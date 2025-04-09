@@ -140,7 +140,7 @@ function createVisualization() {
     svg.attr('height', Math.max(config.height, totalHeight + config.margin.top + config.margin.bottom));
 
     // Create kingdom elements with fixed width
-    const kingdomWidth = config.width - config.margin.left - config.margin.right;
+    const kingdomWidth = config.width * 0.8; // Fixed width for all kingdom bars
     const kingdomElements = kingdomGroup.selectAll('.kingdom')
         .data(kingdoms)
         .enter()
@@ -208,7 +208,7 @@ function createVisualization() {
             .attr('transform', `translate(0,${config.kingdomHeight - config.phylumBarHeight - 50})`);
 
         // Add rectangles with hover
-        phylumBars.append('rect')
+        const rectangles = phylumBars.append('rect')
             .attr('x', d => {
                 const width = kingdomXScale(+d.occurrence_count);
                 const result = x;
@@ -222,12 +222,13 @@ function createVisualization() {
             .on('mouseover', (event, d) => {
                 const name = getDisplayName(d.phylum, 'phylum');
                 const percentage = ((+d.occurrence_count / total) * 100).toFixed(1);
+                const description = commonNames.phyla[d.phylum]?.description || '';
                 const tooltip = d3.select('#tooltip');
                 tooltip.style('visibility', 'visible')
                     .style('background-color', '#f8f8f8')
                     .style('border', '1px solid #ddd')
                     .style('color', '#333')
-                    .html(`${name}<br>${formatNumber(d.occurrence_count)} occurrences (${percentage}%)`);
+                    .html(`${name}<br>${description}<br>${formatNumber(d.occurrence_count)} occurrences (${percentage}%)`);
                 
                 tooltip.style('left', `${event.pageX + 10}px`)
                        .style('top', `${event.pageY + 10}px`);
@@ -241,12 +242,16 @@ function createVisualization() {
                 d3.select('#tooltip').style('visibility', 'hidden');
             });
 
+        // Reset x for labels
+        x = 0;
+
         // Add phylum labels with hover
         phylumBars.append('text')
             .attr('x', d => {
                 const width = kingdomXScale(+d.occurrence_count);
-                const result = x - width;
-                return result + 5;
+                const result = x;
+                x += width;
+                return result + 5; // Add 5px padding from the left edge
             })
             .attr('y', config.phylumBarHeight / 2)
             .attr('dy', '0.35em')
@@ -257,15 +262,17 @@ function createVisualization() {
             })
             .style('fill', 'white')
             .style('font-size', '10px')
+            .style('text-anchor', 'start')
             .on('mouseover', (event, d) => {
                 const name = getDisplayName(d.phylum, 'phylum');
                 const percentage = ((+d.occurrence_count / total) * 100).toFixed(1);
+                const description = commonNames.phyla[d.phylum]?.description || '';
                 const tooltip = d3.select('#tooltip');
                 tooltip.style('visibility', 'visible')
                     .style('background-color', '#f8f8f8')
                     .style('border', '1px solid #ddd')
                     .style('color', '#333')
-                    .html(`${name}<br>${formatNumber(d.occurrence_count)} occurrences (${percentage}%)`);
+                    .html(`${name}<br>${description}<br>${formatNumber(d.occurrence_count)} occurrences (${percentage}%)`);
                 
                 tooltip.style('left', `${event.pageX + 10}px`)
                        .style('top', `${event.pageY + 10}px`);
@@ -338,12 +345,14 @@ function updateDetails() {
         const scientificName = phylum.phylum;
         const totalOccurrences = formatNumber(phylum.occurrence_count);
         const totalIndividuals = formatNumber(phylum.individual_count);
+        const description = commonNames.phyla[phylum.phylum]?.description || '';
 
         console.log('Phylum details:', {
             commonName,
             scientificName,
             totalOccurrences,
-            totalIndividuals
+            totalIndividuals,
+            description
         });
 
         titleGroup.append('text')
@@ -354,16 +363,23 @@ function updateDetails() {
             .style('font-size', '14px');
 
         titleGroup.append('text')
+            .attr('class', 'phylum-description')
+            .text(description)
+            .attr('y', 40)
+            .style('font-size', '12px')
+            .style('font-style', 'italic');
+
+        titleGroup.append('text')
             .attr('class', 'phylum-counts')
             .text(`Total Occurrences: ${totalOccurrences} | Total Individuals: ${totalIndividuals}`)
-            .attr('y', 40)
+            .attr('y', 60)
             .style('font-size', '12px');
 
         // Create species chart with more spacing after the counts
-        createSpeciesChart(phylum, yOffset + 80); // Increased from 60 to 80
+        createSpeciesChart(phylum, yOffset + 100); // Increased from 80 to 100 to accommodate description
         
         // Create country chart with more spacing after the counts
-        createCountryChart(phylum, yOffset + 80); // Increased from 60 to 80
+        createCountryChart(phylum, yOffset + 100); // Increased from 80 to 100 to accommodate description
     });
 }
 
