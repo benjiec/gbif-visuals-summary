@@ -134,16 +134,39 @@ function renderTaxonomicLevel(level, parent, depth) {
     const yOffset = calculateYOffset(level, parent, depth);
     const xOffset = depth * config.indentation;
 
-    // Calculate total occurrences and individuals for title
-    const totalOccurrences = d3.sum(data, d => +d.occurrence_count);
-    const totalIndividuals = d3.sum(data, d => +(d.individual_count || 0));
+    // Get the occurrence count from the parent level if available
+    let totalOccurrences, totalIndividuals;
+    if (parent) {
+        const parentLevel = getPreviousLevel(level);
+        const parentRecord = taxonomyData[parentLevel].find(d => d[parentLevel] === parent);
+        if (parentRecord) {
+            totalOccurrences = +parentRecord.occurrence_count;
+            totalIndividuals = +(parentRecord.individual_count || 0);
+        }
+    }
+    
+    // Fallback to sum if parent record not found
+    if (!totalOccurrences) {
+        totalOccurrences = d3.sum(data, d => +d.occurrence_count);
+        totalIndividuals = d3.sum(data, d => +(d.individual_count || 0));
+    }
+
+    // Calculate percentage of parent's total if this is an expanded level
+    let percentageOfParent = '';
+    if (parent) {
+        const parentTotal = expandedNodes.get(`${getPreviousLevel(level)}:${parent}`);
+        if (parentTotal) {
+            const percentage = ((totalOccurrences / parentTotal) * 100).toFixed(1);
+            percentageOfParent = ` (${percentage}%)`;
+        }
+    }
 
     // Add level title
     mainGroup.append('text')
         .attr('x', xOffset)
         .attr('y', yOffset - 5)
         .text(parent ? 
-            `${capitalizeFirst(level)} of ${getDisplayName(parent, getPreviousLevel(level))} (${formatNumber(totalOccurrences)} occurrences, ${formatNumber(totalIndividuals)} individuals)` : 
+            `${capitalizeFirst(level)} of ${getDisplayName(parent, getPreviousLevel(level))} (${formatNumber(totalOccurrences)} occurrences${percentageOfParent}, ${formatNumber(totalIndividuals)} individuals)` : 
             `${capitalizeFirst(level)} (${formatNumber(totalOccurrences)} occurrences, ${formatNumber(totalIndividuals)} individuals)`)
         .style('font-size', '14px')
         .style('font-weight', 'bold');
@@ -176,7 +199,7 @@ function renderTaxonomicLevel(level, parent, depth) {
         .style('cursor', level === 'species' ? 'default' : 'pointer')
         .on('click', (event, d) => {
             if (level !== 'species') {
-                toggleExpansion(level, d[level], +d.occurrence_count);
+                toggleExpansion(level, d[level], totalOccurrences);
             }
         })
         .on('mouseover', (event, d) => showTooltip(event, d, level, totalOccurrences))
@@ -194,7 +217,16 @@ function renderTaxonomicLevel(level, parent, depth) {
             return `${name} (${percentage}%)`;
         })
         .style('fill', 'white')
-        .style('font-size', '12px');
+        .style('font-size', '12px')
+        .style('cursor', level === 'species' ? 'default' : 'pointer')
+        .on('click', (event, d) => {
+            if (level !== 'species') {
+                toggleExpansion(level, d[level], totalOccurrences);
+            }
+        })
+        .on('mouseover', (event, d) => showTooltip(event, d, level, totalOccurrences))
+        .on('mousemove', moveTooltip)
+        .on('mouseout', hideTooltip);
 
     let totalHeight = yOffset + config.barHeight + config.spacing;
 
