@@ -68,8 +68,6 @@ Choanozoa,Collar Flagellates
 Sipuncula,Peanut Worms
 Armatimonadota,Heat-loving Bacteria
 Nitrospirota,Nitrite-oxidizing Bacteria
-Halobacteriota,Salt-loving Archaea
-Nitrospinota,Marine Nitrifying Bacteria
 Bigyra,Bigyra Protists
 Kitrinoviricota,Yellow Viruses
 Firmicutes_C,Firmicutes Group C
@@ -248,4 +246,1401 @@ Cuculiformes,Cuckoos
 Hemiptera,True Bugs
 Strigiformes,Owls
 Rodentia,Rodents
-Agaricales,Mushrooms 
+Agaricales,Mushrooms
+Anura,Frogs and Toads
+Chiroptera,Bats
+Dipsacales,Honeysuckles and Teasels
+Sapindales,Maples and Citrus
+Carnivora,Carnivores (Dogs, Cats, Bears)
+Pinales,Pines and Conifers
+Decapoda,Crabs, Shrimps and Lobsters
+Malvales,Mallows and Cacao
+Araneae,Spiders
+Orthoptera,Grasshoppers and Crickets
+Artiodactyla,Even-toed Hoofed Mammals
+Hypnales,Feather Mosses
+Solanales,Nightshades and Morning Glories
+Lecanorales,Shield Lichens
+Procellariiformes,Tube-nosed Seabirds
+Alismatales,Water Plantains
+Boraginales,Forget-me-nots and Allies
+Saxifragales,Saxifrages and Stonecrop
+Gaviiformes,Loons
+Stylommatophora,Land Snails and Slugs
+Geraniales,Geraniums
+Ciconiiformes,Storks
+Trichoptera,Caddisflies
+Polyporales,Bracket Fungi
+Caprimulgiformes,Nightjars and Allies
+Liliales,Lilies and Allies
+Bucerotiformes,Hornbills and Hoopoes
+Caudata,Salamanders and Newts
+Diprotodontia,Kangaroos and Koalas
+Russulales,Milk-cap Mushrooms
+Equisetales,Horsetails
+Cetacea,Whales and Dolphins
+Neogastropoda,Predatory Sea Snails
+Calanoida,Marine Copepods
+Littorinimorpha,Periwinkles and Conches
+Dicranales,Fork Mosses
+Lagomorpha,Rabbits and Hares
+Jungermanniales,Leafy Liverworts
+Rotaliida,Foraminifera
+Ephemeroptera,Mayflies
+Oxalidales,Wood Sorrels
+Cornales,Dogwoods
+Amphipoda,Beach Hoppers and Scuds
+Bryales,Thread Mosses
+Proteales,Proteas and Plane Trees
+Sphenisciformes,Penguins
+Celastrales,Staff Vines
+Laurales,Laurels and Avocados
+Helotiales,Cup Fungi
+Phyllodocida,Scale Worms
+Pottiales,Rock Mosses
+Boletales,Porcini Mushrooms
+Trogoniformes,Trogons
+Sphagnales,Peat Mosses
+Scleractinia,Hard Corals
+Arecales,Palms
+Peltigerales,Dog Lichens
+Pucciniales,Rust Fungi
+Soricomorpha,Shrews and Moles
+Anatidae,Ducks, Geese and Swans
+Corvidae,Crows and Jays
+Passerellidae,New World Sparrows
+Fringillidae,True Finches
+Picidae,Woodpeckers
+Columbidae,Pigeons and Doves
+Laridae,Gulls and Terns
+Parulidae,New World Warblers
+Turdidae,Thrushes
+Accipitridae,Hawks and Eagles
+Paridae,Tits and Chickadees
+Icteridae,Blackbirds and Orioles
+Ardeidae,Herons and Egrets
+Scolopacidae,Sandpipers and Snipes
+Tyrannidae,Tyrant Flycatchers
+Asteraceae,Sunflower Family
+Poaceae,Grass Family
+Hirundinidae,Swallows and Martins
+Cardinalidae,Cardinals and Grosbeaks
+Nymphalidae,Brush-footed Butterflies
+Troglodytidae,Wrens
+Sturnidae,Starlings
+Muscicapidae,Old World Flycatchers
+Fabaceae,Pea Family
+Noctuidae,Owlet Moths
+Charadriidae,Plovers
+Passeridae,Old World Sparrows
+Mimidae,Mockingbirds and Thrashers
+Rosaceae,Rose Family
+Rallidae,Rails and Coots
+Sittidae,Nuthatches
+Geometridae,Inchworm Moths
+Cathartidae,New World Vultures
+Phalacrocoracidae,Cormorants
+Trochilidae,Hummingbirds
+Falconidae,Falcons
+Motacillidae,Wagtails and Pipits
+Lamiaceae,Mint Family
+Podicipedidae,Grebes
+Cyperaceae,Sedge Family
+Vireonidae,Vireos
+Psittacidae,Parrots
+Thraupidae,Tanagers
+Pieridae,White and Sulphur Butterflies
+Regulidae,Kinglets
+Alcedinidae,Kingfishers
+Sylviidae,Old World Warblers
+Phylloscopidae,Leaf Warblers
+Phasianidae,Pheasants and Chickens
+Caryophyllaceae,Pink Family
+Plantaginaceae,Plantain Family
+Ranunculaceae,Buttercup Family
+Brassicaceae,Mustard Family
+Apiaceae,Carrot Family
+Cuculidae,Cuckoos
+Meliphagidae,Honeyeaters
+Apodidae,Swifts
+Cyprinidae,Carp Family
+Orchidaceae,Orchid Family
+Threskiornithidae,Ibises and Spoonbills
+Lycaenidae,Gossamer-winged Butterflies
+Strigidae,True Owls
+Rubiaceae,Coffee Family
+Emberizidae,Old World Buntings
+Polygonaceae,Buckwheat Family
+Erebidae,Tiger Moths
+Ericaceae,Heath Family
+Alaudidae,Larks
+Fagaceae,Beech Family
+Acrocephalidae,Reed Warblers
+Bombycillidae,Waxwings
+Vespertilionidae,Evening Bats
+Pandionidae,Ospreys
+Apidae,Honey Bees and Bumblebees
+Pycnonotidae,Bulbuls
+Cisticolidae,Cisticolas
+Juncaceae,Rush Family
+Laniidae,Shrikes
+Salicaceae,Willow Family
+Polioptilidae,Gnatcatchers
+Recurvirostridae,Avocets and Stilts
+Pelecanidae,Pelicans
+Salmonidae,Salmon and Trout
+Certhiidae,Treecreepers
+Gaviidae,Loons
+Furnariidae,Ovenbirds
+Pinaceae,Pine Family
+Euphorbiaceae,Spurge Family
+Caprifoliaceae,Honeysuckle Family
+Aegithalidae,Long-tailed Tits
+Haematopodidae,Oystercatchers
+Betulaceae,Birch Family
+Libellulidae,Skimmer Dragonflies
+Gruidae,Cranes
+Cracticidae,Australian Magpies
+Carabidae,Ground Beetles
+Primulaceae,Primrose Family
+Boraginaceae,Borage Family
+Hesperiidae,Skipper Butterflies
+Alcidae,Auks and Puffins
+Corvus,Crows and Ravens
+Turdus,Thrushes
+Anas,Dabbling Ducks
+Larus,Gulls
+Setophaga,New World Warblers
+Ardea,Herons
+Zenaida,Mourning Doves
+Poecile,Chickadees
+Spinus,Goldfinches
+Passer,House Sparrows
+Branta,Canada and Barnacle Geese
+Buteo,Hawks
+Sturnus,Starlings
+Melospiza,Song Sparrows
+Cardinalis,Cardinals
+Cyanocitta,Blue Jays
+Columba,Pigeons
+Sitta,Nuthatches
+Haemorhous,House and Purple Finches
+Dryobates,Woodpeckers
+Melanerpes,Woodpeckers
+Phalacrocorax,Cormorants
+Agelaius,Blackbirds
+Hirundo,Swallows
+Zonotrichia,Sparrows
+Falco,Falcons
+Calidris,Sandpipers
+Tringa,Yellowlegs and Redshanks
+Quiscalus,Grackles
+Cathartes,Turkey Vultures
+Aythya,Diving Ducks
+Vireo,Vireos
+Charadrius,Plovers
+Troglodytes,Wrens
+Regulus,Kinglets
+Colaptes,Flickers
+Baeolophus,Titmice
+Junco,Juncos
+Egretta,Egrets
+Parus,Tits
+Phylloscopus,Leaf Warblers
+Mareca,Wigeons
+Sylvia,Warblers
+Spizella,American Sparrows
+Mimus,Mockingbirds
+Carex,Sedges
+Sayornis,Phoebes
+Streptopelia,Collared Doves
+Spatula,Shovelers and Teals
+Fulica,Coots
+Thryothorus,Carolina Wrens
+Fringilla,Chaffinches
+Motacilla,Wagtails
+Cygnus,Swans
+Bucephala,Goldeneyes and Bufflehead
+Cyanistes,Blue Tits
+Accipiter,Goshawks and Sparrowhawks
+Pica,Magpies
+Tachycineta,Swallows
+Erithacus,European Robins
+Pipilo,Towhees
+Haliaeetus,Sea Eagles
+Tyrannus,Kingbirds
+Emberiza,Buntings
+Sialia,Bluebirds
+Chroicocephalus,Black-headed Gulls
+Geothlypis,Yellowthroats
+Circus,Harriers
+Pieris,White Butterflies
+Mergus,Mergansers
+Anser,Grey Geese
+Molothrus,Cowbirds
+Dumetella,Gray Catbirds
+Vanellus,Lapwings
+Anthus,Pipits
+Icterus,Orioles
+Bombycilla,Waxwings
+Podiceps,Grebes
+Catharus,Thrushes
+Leuconotopicus,White-breasted Woodpeckers
+Pandion,Ospreys
+Megaceryle,Kingfishers
+Acrocephalus,Reed Warblers
+Aix,Wood Ducks
+Dryocopus,Woodpeckers
+Quercus,Oaks
+Leiothlypis,American Warblers
+Chloris,Greenfinches
+Lanius,Shrikes
+Gallinula,Moorhens
+Passerina,Buntings
+Salix,Willows
+Picea,Spruce Trees
+Pinus,Pine Trees
+Acer,Maple Trees
+Betula,Birch Trees
+Populus,Poplars and Aspens
+Rubus,Blackberries and Raspberries
+Prunus,Cherry and Plum Trees
+Rosa,Roses
+Viola,Violets
+Solidago,Goldenrods
+Juncus,Rushes
+Vaccinium,Blueberries and Cranberries
+Artemisia,Sagebrush and Wormwood
+Euphorbia,Spurges
+Galium,Bedstraws
+Ranunculus,Buttercups
+Plantago,Plantains
+Poa,Meadow Grasses
+Silene,Catchflies
+Aster,Asters
+Taraxacum,Dandelions
+Trifolium,Clovers
+Geranium,Cranesbills
+Potentilla,Cinquefoils
+Alnus,Alders
+Cornus,Dogwoods
+Ulmus,Elms
+Fraxinus,Ash Trees
+Lonicera,Honeysuckles
+Iris,Irises
+Helianthus,Sunflowers
+Aesculus,Horse Chestnuts
+Tilia,Linden Trees
+Fagus,Beech Trees
+Abies,Fir Trees
+Juniperus,Junipers
+Ribes,Currants and Gooseberries
+Crataegus,Hawthorns
+Hypericum,St. John's Worts
+Campanula,Bellflowers
+Veronica,Speedwells
+Rumex,Docks and Sorrels
+Epilobium,Willowherbs
+Lysimachia,Loosestrifes
+Equisetum,Horsetails
+Asplenium,Spleenworts
+Carduus,Thistles
+Cirsium,Thistles
+Senecio,Ragworts and Groundsels
+Polygonum,Knotweeds
+Salix,Willows
+Vicia,Vetches
+Lathyrus,Sweet Peas
+Astragalus,Milk-vetches
+Erigeron,Fleabanes
+Festuca,Fescue Grasses
+Agrostis,Bentgrasses
+Bromus,Brome Grasses
+Chenopodium,Goosefoots
+Amaranthus,Amaranths
+Persicaria,Smartweeds
+Symphyotrichum,American Asters
+Phlox,Phlox
+Anemone,Anemones
+Aquilegia,Columbines
+Delphinium,Larkspurs
+Thalictrum,Meadow-rues
+Sedum,Stonecrops
+Saxifraga,Saxifrages
+Dianthus,Pinks and Carnations
+Stellaria,Chickweeds
+Cerastium,Mouse-ear Chickweeds
+Arenaria,Sandworts
+Penstemon,Beardtongues
+Mimulus,Monkey Flowers
+Castilleja,Indian Paintbrushes
+Pedicularis,Louseworts
+Gentiana,Gentians
+Phleum,Timothy Grasses
+Dactylis,Orchard Grasses
+Anthoxanthum,Sweet Vernal Grasses
+Holcus,Soft Grasses
+Deschampsia,Hair Grasses
+Calamagrostis,Reed Grasses
+Glyceria,Manna Grasses
+Schizachyrium,Little Bluestems
+Andropogon,Big Bluestems
+Sorghastrum,Indian Grasses
+Panicum,Panic Grasses
+Elymus,Wild Ryes
+Hordeum,Barley Grasses
+Agropyron,Wheatgrasses
+Sporobolus,Dropseed Grasses
+Muhlenbergia,Muhly Grasses
+Bouteloua,Grama Grasses
+Aristida,Three-awn Grasses
+Cynodon,Bermuda Grasses
+Digitaria,Crab Grasses
+Setaria,Foxtail Grasses
+Echinochloa,Barnyard Grasses
+Paspalum,Paspalum Grasses
+Spartina,Cordgrasses
+Distichlis,Saltgrasses
+Phragmites,Common Reeds
+Typha,Cattails
+Scirpus,Bulrushes
+Eleocharis,Spike Rushes
+Cyperus,Sedges
+Rhynchospora,Beak Rushes
+Eriophorum,Cotton Grasses
+Luzula,Wood Rushes
+Allium,Onions and Garlic
+Maianthemum,False Solomon's Seals
+Polygonatum,Solomon's Seals
+Trillium,Trilliums
+Lilium,True Lilies
+Erythronium,Trout Lilies
+Calochortus,Mariposa Lilies
+Zigadenus,Death Camas
+Veratrum,False Hellebores
+Narthecium,Bog Asphodels
+Tofieldia,False Asphodels
+Sisyrinchium,Blue-eyed Grasses
+Cypripedium,Lady's Slippers
+Platanthera,Butterfly Orchids
+Spiranthes,Ladies' Tresses
+Goodyera,Rattlesnake Plantains
+Corallorhiza,Coral Roots
+Liparis,Twayblade Orchids
+Malaxis,Adder's Mouth Orchids
+Calopogon,Grass Pinks
+Pogonia,Rose Pogonias
+Arethusa,Dragon's Mouth Orchids
+Epipactis,Helleborine Orchids
+Listera,Twayblade Orchids
+Cephalanthera,Helleborine Orchids
+Neottia,Bird's Nest Orchids
+Actitis,Sandpipers
+Coragyps,Black Vultures
+Carduelis,European Goldfinches
+Sterna,Terns
+Polioptila,Gnatcatchers
+Empidonax,Flycatchers
+Pelecanus,Pelicans
+Contopus,Pewees
+Certhia,Treecreepers
+Anas platyrhynchos,Mallard Duck
+Zenaida macroura,Mourning Dove
+Turdus migratorius,American Robin
+Corvus brachyrhynchos,American Crow
+Sturnus vulgaris,European Starling
+Cardinalis cardinalis,Northern Cardinal
+Branta canadensis,Canada Goose
+Passer domesticus,House Sparrow
+Cyanocitta cristata,Blue Jay
+Melospiza melodia,Song Sparrow
+Agelaius phoeniceus,Red-winged Blackbird
+Spinus tristis,American Goldfinch
+Dryobates pubescens,Downy Woodpecker
+Haemorhous mexicanus,House Finch
+Poecile atricapillus,Black-capped Chickadee
+Cathartes aura,Turkey Vulture
+Hirundo rustica,Barn Swallow
+Melanerpes carolinus,Red-bellied Woodpecker
+Columba livia,Rock Pigeon
+Colaptes auratus,Northern Flicker
+Junco hyemalis,Dark-eyed Junco
+Sitta carolinensis,White-breasted Nuthatch
+Ardea herodias,Great Blue Heron
+Parus major,Great Tit
+Larus argentatus,Herring Gull
+Turdus merula,Common Blackbird
+Baeolophus bicolor,Tufted Titmouse
+Ardea alba,Great Egret
+Buteo jamaicensis,Red-tailed Hawk
+Thryothorus ludovicianus,Carolina Wren
+Quiscalus quiscula,Common Grackle
+Setophaga coronata,Yellow-rumped Warbler
+Corvus corax,Common Raven
+Mimus polyglottos,Northern Mockingbird
+Larus delawarensis,Ring-billed Gull
+Cyanistes caeruleus,Blue Tit
+Erithacus rubecula,European Robin
+Phalacrocorax auritus,Double-crested Cormorant
+Fringilla coelebs,Common Chaffinch
+Charadrius vociferus,Killdeer
+Streptopelia decaocto,Eurasian Collared-Dove
+Zonotrichia albicollis,White-throated Sparrow
+Dumetella carolinensis,Gray Catbird
+Spizella passerina,Chipping Sparrow
+Columba palumbus,Common Wood Pigeon
+Poecile carolinensis,Carolina Chickadee
+Geothlypis trichas,Common Yellowthroat
+Tachycineta bicolor,Tree Swallow
+Molothrus ater,Brown-headed Cowbird
+Troglodytes aedon,House Wren
+Sialia sialis,Eastern Bluebird
+Pandion haliaetus,Osprey
+Anas crecca,Green-winged Teal
+Pica pica,Eurasian Magpie
+Haliaeetus leucocephalus,Bald Eagle
+Ardea cinerea,Grey Heron
+Regulus calendula,Ruby-crowned Kinglet
+Leuconotopicus villosus,Hairy Woodpecker
+Buteo buteo,Common Buzzard
+Bombycilla cedrorum,Cedar Waxwing
+Sayornis phoebe,Eastern Phoebe
+Megaceryle alcyon,Belted Kingfisher
+Setophaga petechia,Yellow Warbler
+Larus fuscus,Lesser Black-backed Gull
+Mareca strepera,Gadwall
+Phylloscopus collybita,Common Chiffchaff
+Aix sponsa,Wood Duck
+Zonotrichia leucophrys,White-crowned Sparrow
+Cygnus olor,Mute Swan
+Chroicocephalus ridibundus,Black-headed Gull
+Chloris chloris,European Greenfinch
+Motacilla alba,White Wagtail
+Spatula clypeata,Northern Shoveler
+Phalacrocorax carbo,Great Cormorant
+Sylvia atricapilla,Eurasian Blackcap
+Coragyps atratus,Black Vulture
+Fulica americana,American Coot
+Carduelis carduelis,European Goldfinch
+Bucephala clangula,Common Goldeneye
+Falco sparverius,American Kestrel
+Sitta canadensis,Red-breasted Nuthatch
+Gallinula chloropus,Common Moorhen
+Vireo olivaceus,Red-eyed Vireo
+Mergus merganser,Common Merganser
+Fulica atra,Eurasian Coot
+Troglodytes troglodytes,Eurasian Wren
+Falco tinnunculus,Common Kestrel
+Polioptila caerulea,Blue-gray Gnatcatcher
+Pipilo erythrophthalmus,Eastern Towhee
+Dryocopus pileatus,Pileated Woodpecker
+Corvus corone,Carrion Crow
+Phylloscopus trochilus,Willow Warbler
+Bucephala albeola,Bufflehead
+Podilymbus podiceps,Pied-billed Grebe
+Circus cyaneus,Northern Harrier
+Larus marinus,Great Black-backed Gull
+Dendrocopos major,Great Spotted Woodpecker
+Buteo lineatus,Red-shouldered Hawk
+Pipilo maculatus,Spotted Towhee
+Calypte anna,Anna's Hummingbird
+Anser anser,Greylag Goose
+Egretta thula,Snowy Egret
+Archilochus colubris,Ruby-throated Hummingbird
+Coloeus monedula,Western Jackdaw
+Turdus philomelos,Song Thrush
+Vanellus vanellus,Northern Lapwing
+Maniola jurtina,Meadow Brown Butterfly
+Accipiter cooperii,Cooper's Hawk
+Anas acuta,Northern Pintail
+Icterus galbula,Baltimore Oriole
+Passerculus sandwichensis,Savannah Sparrow
+Spinus psaltria,Lesser Goldfinch
+Garrulus glandarius,Eurasian Jay
+Corvus cornix,Hooded Crow
+Tyrannus tyrannus,Eastern Kingbird
+Regulus regulus,Goldcrest
+Passer montanus,Eurasian Tree Sparrow
+Setophaga ruticilla,American Redstart
+Mergus serrator,Red-breasted Merganser
+Haematopus ostralegus,Eurasian Oystercatcher
+Prunella modularis,Dunnock
+Passerina cyanea,Indigo Bunting
+Aythya fuligula,Tufted Duck
+Chaetura pelagica,Chimney Swift
+Mareca americana,American Wigeon
+Contopus virens,Eastern Wood-Pewee
+Sayornis nigricans,Black Phoebe
+Pieris rapae,Cabbage White Butterfly
+Spatula discors,Blue-winged Teal
+Quiscalus mexicanus,Great-tailed Grackle
+Actitis macularius,Spotted Sandpiper
+Emberiza schoeniclus,Common Reed Bunting
+Myiarchus crinitus,Great Crested Flycatcher
+Toxostoma rufum,Brown Thrasher
+Alauda arvensis,Eurasian Skylark
+Aythya collaris,Ring-necked Duck
+Regulus satrapa,Golden-crowned Kinglet
+Sitta europaea,European Nuthatch
+Bubulcus ibis,Cattle Egret
+Podiceps cristatus,Great Crested Grebe
+Spinus pinus,Pine Siskin
+Egretta garzetta,Little Egret
+Zenaida asiatica,White-winged Dove
+Pararge aegeria,Speckled Wood Butterfly
+Vireo gilvus,Warbling Vireo
+Pipistrellus pipistrellus,Common Pipistrelle Bat
+Calidris alpina,Dunlin
+Emberiza citrinella,Yellowhammer
+Acanthis flammea,Common Redpoll
+Mniotilta varia,Black-and-white Warbler
+Catharus guttatus,Hermit Thrush
+Corvus ossifragus,Fish Crow
+Lophodytes cucullatus,Hooded Merganser
+Larus canus,Common Gull
+Butorides virescens,Green Heron
+Tringa melanoleuca,Greater Yellowlegs
+Anthus pratensis,Meadow Pipit
+Circus aeruginosus,Western Marsh Harrier
+Phasianus colchicus,Common Pheasant
+Thryomanes bewickii,Bewick's Wren
+Anas rubripes,American Black Duck
+Acridotheres tristis,Common Myna
+Stelgidopteryx serripennis,Northern Rough-winged Swallow
+Melospiza georgiana,Swamp Sparrow
+Gavia immer,Common Loon
+Leucophaeus atricilla,Laughing Gull
+Acrocephalus scirpaceus,Eurasian Reed Warbler
+Spinus spinus,Eurasian Siskin
+Aegithalos caudatus,Long-tailed Tit
+Vanessa atalanta,Red Admiral Butterfly
+Aglais io,European Peacock Butterfly
+Salmo trutta,Brown Trout
+Nycticorax nycticorax,Black-crowned Night Heron
+Oxyura jamaicensis,Ruddy Duck
+Pieris napi,Green-veined White Butterfly
+Spizella pusilla,Field Sparrow
+Turdus pilaris,Fieldfare
+Sterna hirundo,Common Tern
+Setophaga americana,Northern Parula
+Falco peregrinus,Peregrine Falcon
+Leiothlypis celata,Orange-crowned Warbler
+Tachybaptus ruficollis,Little Grebe
+Linaria cannabina,Common Linnet
+Aphelocoma californica,California Scrub-Jay
+Apus apus,Common Swift
+Accipiter nisus,Eurasian Sparrowhawk
+Certhia americana,Brown Creeper
+Setophaga pinus,Pine Warbler
+Haemorhous purpureus,Purple Finch
+Mareca penelope,Eurasian Wigeon
+Pyrrhula pyrrhula,Eurasian Bullfinch
+Calidris minutilla,Least Sandpiper
+Pelecanus occidentalis,Brown Pelican
+Aythya affinis,Lesser Scaup
+Somateria mollissima,Common Eider
+Tringa totanus,Common Redshank
+Meleagris gallopavo,Wild Turkey
+Seiurus aurocapilla,Ovenbird
+Pheucticus ludovicianus,Rose-breasted Grosbeak
+Cyanocitta stelleri,Steller's Jay
+Actitis hypoleucos,Common Sandpiper
+Sphyrapicus varius,Yellow-bellied Sapsucker
+Pieris brassicae,Large White Butterfly
+Aglais urticae,Small Tortoiseshell Butterfly
+Pica hudsonia,Black-billed Magpie
+Milvus migrans,Black Kite
+Gymnorhina tibicen,Australian Magpie
+Grus grus,Common Crane
+Psaltriparus minimus,Bushtit
+Pitangus sulphuratus,Great Kiskadee
+Hydroprogne caspia,Caspian Tern
+Tadorna tadorna,Common Shelduck
+Pluvialis squatarola,Black-bellied Plover
+Numenius arquata,Eurasian Curlew
+Ficedula hypoleuca,European Pied Flycatcher
+Alcedo atthis,Common Kingfisher
+Periparus ater,Coal Tit
+Catharus ustulatus,Swainson's Thrush
+Riparia riparia,Bank Swallow
+Delichon urbicum,Common House Martin
+Vireo griseus,White-eyed Vireo
+Grus canadensis,Sandhill Crane
+Sturnella magna,Eastern Meadowlark
+Spilopelia chinensis,Spotted Dove
+Petrochelidon pyrrhonota,Cliff Swallow
+Picus viridis,European Green Woodpecker
+Spizelloides arborea,American Tree Sparrow
+Gallinago gallinago,Common Snipe
+Sturnella neglecta,Western Meadowlark
+Sylvia communis,Common Whitethroat
+Phoenicurus ochruros,Black Redstart
+Gonepteryx rhamni,Common Brimstone Butterfly
+Polyommatus icarus,Common Blue Butterfly
+Eudocimus albus,White Ibis
+Saxicola rubicola,European Stonechat
+Egretta caerulea,Little Blue Heron
+Clupea pallasii,Pacific Herring
+Cardellina pusilla,Wilson's Warbler
+Cygnus cygnus,Whooper Swan
+Hylocichla mustelina,Wood Thrush
+Morus bassanus,Northern Gannet
+Tringa flavipes,Lesser Yellowlegs
+Arenaria interpres,Ruddy Turnstone
+Pelecanus erythrorhynchos,American White Pelican
+Progne subis,Purple Martin
+Haliaeetus albicilla,White-tailed Eagle
+Euphagus cyanocephalus,Brewer's Blackbird
+Turdus iliacus,Redwing
+Calidris alba,Sanderling
+Alopochen aegyptiaca,Egyptian Goose
+Eremophila alpestris,Horned Lark
+Falco columbarius,Merlin
+Tyrannus melancholicus,Tropical Kingbird
+Poecile rufescens,Chestnut-backed Chickadee
+Tringa semipalmata,Willet
+Cistothorus palustris,Marsh Wren
+Tringa nebularia,Common Greenshank
+Motacilla flava,Yellow Wagtail
+Motacilla cinerea,Grey Wagtail
+Accipiter striatus,Sharp-shinned Hawk
+Cuculus canorus,Common Cuckoo
+Pyronia tithonus,Gatekeeper Butterfly
+Passerella iliaca,Fox Sparrow
+Melozone crissalis,California Towhee
+Melospiza lincolnii,Lincoln's Sparrow
+Urtica dioica,Common Nettle
+Podiceps auritus,Horned Grebe
+Acrocephalus schoenobaenus,Sedge Warbler
+Grallina cyanoleuca,Magpie-lark
+Ciconia ciconia,White Stork
+Piranga rubra,Summer Tanager
+Himantopus mexicanus,Black-necked Stilt
+Milvus milvus,Red Kite
+Piranga olivacea,Scarlet Tanager
+Aythya ferina,Common Pochard
+Capreolus capreolus,European Roe Deer
+Coenonympha pamphilus,Small Heath Butterfly
+Leiothlypis ruficapilla,Nashville Warbler
+Zonotrichia atricapilla,Golden-crowned Sparrow
+Charadrius hiaticula,Common Ringed Plover
+Melanerpes formicivorus,Acorn Woodpecker
+Tachycineta thalassina,Violet-green Swallow
+Sayornis saya,Say's Phoebe
+Oenanthe oenanthe,Northern Wheatear
+Fringilla montifringilla,Brambling
+Aythya americana,Redhead Duck
+Sylvia borin,Garden Warbler
+Psittacula krameri,Rose-ringed Parakeet
+Aphantopus hyperantus,Ringlet Butterfly
+Charadrius semipalmatus,Semipalmated Plover
+Certhia brachydactyla,Short-toed Treecreeper
+Serinus serinus,European Serin
+Sterna forsteri,Forster's Tern
+Anser albifrons,Greater White-fronted Goose
+Hirundo neoxena,Welcome Swallow
+Numenius phaeopus,Whimbrel
+Plantago lanceolata,Ribwort Plantain
+Uria aalge,Common Murre
+Phoenicurus phoenicurus,Common Redstart
+Vireo solitarius,Blue-headed Vireo
+Dactylis glomerata,Orchard Grass
+Quercus rotundifolia,Holm Oak
+Egretta tricolor,Tricolored Heron
+Lanius ludovicianus,Loggerhead Shrike
+Bubo virginianus,Great Horned Owl
+Rhipidura leucophrys,Willie Wagtail
+Gallinago delicata,Wilson's Snipe
+Polygonia c-album,Comma Butterfly
+Sialia mexicana,Western Bluebird
+Anthus trivialis,Tree Pipit
+Rutilus rutilus,Common Roach
+Clangula hyemalis,Long-tailed Duck
+Melanerpes erythrocephalus,Red-headed Woodpecker
+Achillea millefolium,Common Yarrow
+Branta leucopsis,Barnacle Goose
+Loxia curvirostra,Red Crossbill
+Trifolium repens,White Clover
+Calidris pugnax,Ruff
+Quiscalus major,Boat-tailed Grackle
+Anhinga anhinga,American Anhinga
+Pheucticus melanocephalus,Black-headed Grosbeak
+Charadrius dubius,Little Ringed Plover
+Leiothlypis peregrina,Tennessee Warbler
+Vulpes vulpes,Red Fox
+Branta bernicla,Brant Goose
+Cettia cetti,Cetti's Warbler
+Chroicocephalus philadelphia,Bonaparte's Gull
+Tyrannus verticalis,Western Kingbird
+Anser caerulescens,Snow Goose
+Vanessa cardui,Painted Lady Butterfly
+Ranunculus repens,Creeping Buttercup
+Quercus robur,English Oak
+Callipepla californica,California Quail
+Anthocharis cardamines,Orange-tip Butterfly
+Himantopus himantopus,Black-winged Stilt
+Poecile palustris,Marsh Tit
+Podiceps nigricollis,Black-necked Grebe
+Phalacrocorax brasilianus,Neotropic Cormorant
+Gavia stellata,Red-throated Loon
+Holcus lanatus,Yorkshire Fog Grass
+Columba oenas,Stock Dove
+Catharus fuscescens,Veery
+Icterus spurius,Orchard Oriole
+Fulmarus glacialis,Northern Fulmar
+Piranga ludoviciana,Western Tanager
+Noctua pronuba,Large Yellow Underwing Moth
+Parkesia noveboracensis,Northern Waterthrush
+Fraxinus excelsior,European Ash
+Empidonax minimus,Least Flycatcher
+Poecile gambeli,Mountain Chickadee
+Plegadis falcinellus,Glossy Ibis
+Zonotrichia capensis,Rufous-collared Sparrow
+Eolophus roseicapilla,Galah
+Dicrurus macrocercus,Black Drongo
+Thalasseus maximus,Royal Tern
+Trifolium pratense,Red Clover
+Malurus cyaneus,Superb Fairywren
+Fagus sylvatica,European Beech
+Melanitta perspicillata,Surf Scoter
+Spilopelia senegalensis,Laughing Dove
+Trichoglossus haematodus,Rainbow Lorikeet
+Buteo lagopus,Rough-legged Hawk
+Cirsium arvense,Canada Thistle
+Sylvia curruca,Lesser Whitethroat
+Coccyzus americanus,Yellow-billed Cuckoo
+Vanellus miles,Masked Lapwing
+Thraupis episcopus,Blue-grey Tanager
+Caracara plancus,Southern Caracara
+Coccothraustes coccothraustes,Hawfinch
+Contopus sordidulus,Western Wood-Pewee
+Anthus rubescens,American Pipit
+Muscicapa striata,Spotted Flycatcher
+Ondatra zibethicus,Muskrat
+Pycnonotus cafer,Red-vented Bulbul
+Lophophanes cristatus,European Crested Tit
+Strix varia,Barred Owl
+Bubulcus coromandus,Eastern Cattle Egret
+Lycaena phlaeas,Small Copper Butterfly
+Passerina caerulea,Blue Grosbeak
+Lanius collurio,Red-backed Shrike
+Anthochaera carunculata,Red Wattlebird
+Zosterops lateralis,Silvereye
+Platalea leucorodia,Eurasian Spoonbill
+Festuca rubra,Red Fescue
+Thalasseus sandvicensis,Sandwich Tern
+Limosa limosa,Black-tailed Godwit
+Calidris pusilla,Semipalmated Sandpiper
+Anas superciliosa,Pacific Black Duck
+Vireo flavifrons,Yellow-throated Vireo
+Mirounga leonina,Southern Elephant Seal
+Halcyon smyrnensis,White-throated Kingfisher
+Corylus avellana,Common Hazel
+Salmo salar,Atlantic Salmon
+Upupa epops,Eurasian Hoopoe
+Manorina melanocephala,Noisy Miner
+Luscinia megarhynchos,Common Nightingale
+Phoxinus phoxinus,Eurasian Minnow
+Calluna vulgaris,Common Heather
+Recurvirostra avosetta,Pied Avocet
+Bombycilla garrulus,Bohemian Waxwing
+Crataegus monogyna,Common Hawthorn
+Ranunculus acris,Meadow Buttercup
+Phragmites australis,Common Reed
+Buteo platypterus,Broad-winged Hawk
+Dryocopus martius,Black Woodpecker
+Dryobates nuttallii,Nuttall's Woodpecker
+Podiceps grisegena,Red-necked Grebe
+Troglodytes hiemalis,Winter Wren
+Cacatua galerita,Sulphur-crested Cockatoo
+Juncus effusus,Common Rush
+Spatula cyanoptera,Cinnamon Teal
+Rumex acetosa,Common Sorrel
+Filipendula ulmaria,Meadowsweet
+Anguilla anguilla,European Eel
+Sus scrofa,Wild Boar
+Glechoma hederacea,Ground Ivy
+Certhia familiaris,Eurasian Treecreeper
+Dryobates scalaris,Ladder-backed Woodpecker
+Chroicocephalus novaehollandiae,Silver Gull
+Rhipidura albiscapa,Grey Fantail
+Coereba flaveola,Bananaquit
+Perca fluviatilis,European Perch
+Rissa tridactyla,Black-legged Kittiwake
+Ochlodes venata,Large Skipper Butterfly
+Recurvirostra americana,American Avocet
+Hedera helix,Common Ivy
+Dacelo novaeguineae,Laughing Kookaburra
+Gobio gobio,Gudgeon
+Pyrocephalus rubinus,Vermilion Flycatcher
+Ocyphaps lophotes,Crested Pigeon
+Sorbus aucuparia,European Rowan
+Cygnus columbianus,Tundra Swan
+Myiozetetes similis,Social Flycatcher
+Vanellus chilensis,Southern Lapwing
+Dendrocygna autumnalis,Black-bellied Whistling Duck
+Patagioenas fasciata,Band-tailed Pigeon
+Agrostis capillaris,Common Bent Grass
+Emberiza calandra,Corn Bunting
+Saxicola rubetra,Whinchat
+Aechmophorus occidentalis,Western Grebe
+Eudynamys scolopaceus,Asian Koel
+Cisticola juncidis,Zitting Cisticola
+Pinus sylvestris,Scots Pine
+Plantago major,Common Plantain
+Apis mellifera,Western Honey Bee
+Baeolophus inornatus,Oak Titmouse
+Pluvialis apricaria,European Golden Plover
+Luscinia svecica,Bluethroat
+Archilochus alexandri,Black-chinned Hummingbird
+Empidonax difficilis,Pacific-slope Flycatcher
+Columbina talpacoti,Ruddy Ground Dove
+Celastrina argiolus,Holly Blue Butterfly
+Sitta pusilla,Brown-headed Nuthatch
+Squalius cephalus,European Chub
+Copsychus saularis,Oriental Magpie-Robin
+Autographa gamma,Silver Y Moth
+Chondestes grammacus,Lark Sparrow
+Orthotomus sutorius,Common Tailorbird
+Leptotila verreauxi,White-tipped Dove
+Lepus europaeus,European Brown Hare
+Prunella vulgaris,Common Self-heal
+Auriparus flaviceps,Verdin
+Lotus corniculatus,Bird's-foot Trefoil
+Sturnus unicolor,Spotless Starling
+Anthoxanthum odoratum,Sweet Vernal Grass
+Melanerpes aurifrons,Golden-fronted Woodpecker
+Cygnus buccinator,Trumpeter Swan
+Empidonax traillii,Willow Flycatcher
+Strix aluco,Tawny Owl
+Rallus aquaticus,Water Rail
+Branta hutchinsii,Cackling Goose
+Poa trivialis,Rough Meadow-grass
+Galium aparine,Cleavers
+Agrostis stolonifera,Creeping Bentgrass
+Porzana carolina,Sora
+Arrhenatherum elatius,False Oat-grass
+Strepera graculina,Pied Currawong
+Acer pseudoplatanus,Sycamore Maple
+Columbina passerina,Common Ground Dove
+Chordeiles minor,Common Nighthawk
+Icteria virens,Yellow-breasted Chat
+Selasphorus rufus,Rufous Hummingbird
+Colluricincla harmonica,Grey Shrike-thrush
+Egretta novaehollandiae,White-faced Heron
+Avenella flexuosa,Wavy Hair-grass
+Zenaida auriculata,Eared Dove
+Melanitta nigra,Common Scoter
+Heracleum sphondylium,Common Hogweed
+Lolium perenne,Perennial Ryegrass
+Centropus sinensis,Greater Coucal
+Plectrophenax nivalis,Snow Bunting
+Pooecetes gramineus,Vesper Sparrow
+Cirsium vulgare,Spear Thistle
+Sambucus nigra,European Elder
+Picea abies,Norway Spruce
+Rupornis magnirostris,Roadside Hawk
+Columbina inca,Inca Dove
+Geranium robertianum,Herb Robert
+Microcarbo melanoleucos,Little Pied Cormorant
+Coracina novaehollandiae,Black-faced Cuckooshrike
+Deschampsia cespitosa,Tufted Hair Grass
+Alnus glutinosa,Common Alder
+Potentilla erecta,Tormentil
+Icterus bullockii,Bullock's Oriole
+Galerida cristata,Crested Lark
+Dolichonyx oryzivorus,Bobolink
+Sciurus vulgaris,Eurasian Red Squirrel
+Triticum aestivum,Common Wheat
+Melanargia galathea,Marbled White Butterfly
+Vaccinium myrtillus,European Blueberry
+Lullula arborea,Woodlark
+Toxostoma curvirostre,Curve-billed Thrasher
+Threskiornis molucca,Australian White Ibis
+Curruca melanocephala,Sardinian Warbler
+Falco subbuteo,Eurasian Hobby
+Prunus spinosa,Blackthorn
+Vanellus indicus,Red-wattled Lapwing
+Limosa lapponica,Bar-tailed Godwit
+Bellis perennis,Common Daisy
+Anthriscus sylvestris,Cow Parsley
+Pteridium aquilinum,Bracken Fern
+Plegadis chihi,White-faced Ibis
+Hypericum perforatum,St. John's Wort
+Hesperiphona vespertina,Evening Grosbeak
+Pycnonotus sinensis,Chinese Bulbul
+Limnodromus scolopaceus,Long-billed Dowitcher
+Pycnonotus jocosus,Red-whiskered Bulbul
+Molinia caerulea,Purple Moor Grass
+Aquila chrysaetos,Golden Eagle
+Lonchura punctulata,Scaly-breasted Munia
+Betula pendula,Silver Birch
+Fregata magnificens,Magnificent Frigatebird
+Ardeola grayii,Indian Pond Heron
+Melanerpes uropygialis,Gila Woodpecker
+Veronica chamaedrys,Germander Speedwell
+Platycercus elegans,Crimson Rosella
+Mycteria americana,Wood Stork
+Chenonetta jubata,Australian Wood Duck
+Hypochaeris radicata,Common Cat's Ear
+Xanthocephalus xanthocephalus,Yellow-headed Blackbird
+Troglodytes pacificus,Pacific Wren
+Daucus carota,Wild Carrot
+Nyctanassa violacea,Yellow-crowned Night Heron
+Alliaria petiolata,Garlic Mustard
+Cracticus torquatus,Grey Butcherbird
+Ischnura elegans,Blue-tailed Damselfly
+Cottus gobio,European Bullhead
+Agrotis exclamationis,Heart and Dart Moth
+Regulus ignicapilla,Common Firecrest
+Pandalus jordani,Pink Shrimp
+Limnodromus griseus,Short-billed Dowitcher
+Sterna paradisaea,Arctic Tern
+Cirsium palustre,Marsh Thistle
+Geum urbanum,Wood Avens
+Poa annua,Annual Meadow Grass
+Tyrannus vociferans,Cassin's Kingbird
+Thraupis palmarum,Palm Tanager
+Chlidonias niger,Black Tern
+Equisetum arvense,Field Horsetail
+Barbatula barbatula,Stone Loach
+Lanius excubitor,Great Grey Shrike
+Pardalotus striatus,Striated Pardalote
+Ardea purpurea,Purple Heron
+Notiochelidon cyanoleuca,Blue-and-white Swallow
+Erinaceus europaeus,European Hedgehog
+Quercus suber,Cork Oak
+Eudyptula minor,Little Penguin
+Angelica sylvestris,Wild Angelica
+Poa pratensis,Kentucky Bluegrass
+Empidonax virescens,Acadian Flycatcher
+Cygnus atratus,Black Swan
+Sicalis flaveola,Saffron Finch
+Platalea ajaja,Roseate Spoonbill
+Juniperus communis,Common Juniper
+Stellaria media,Common Chickweed
+Lythrum salicaria,Purple Loosestrife
+Platycercus eximius,Eastern Rosella
+Harmonia axyridis,Asian Lady Beetle
+Chamaea fasciata,Wrentit
+Pernis apivorus,European Honey Buzzard
+Spatula querquedula,Garganey
+Myiarchus cinerascens,Ash-throated Flycatcher
+Melanitta deglandi,White-winged Scoter
+Tyto alba,Barn Owl
+Esox lucius,Northern Pike
+Sternula antillarum,Least Tern
+Amazilia tzacatl,Rufous-tailed Hummingbird
+Oryctolagus cuniculus,European Rabbit
+Danaus plexippus,Monarch Butterfly
+Tyrannus forficatus,Scissor-tailed Flycatcher
+Vicia cracca,Tufted Vetch
+Cornus sanguinea,Common Dogwood
+Xestia c-nigrum,Setaceous Hebrew Character Moth
+Limosa fedoa,Marbled Godwit
+Sitta pygmaea,Pygmy Nuthatch
+Mergellus albellus,Smew
+Merops apiaster,European Bee-eater
+Alca torda,Razorbill
+Myiopsitta monachus,Monk Parakeet
+Elymus repens,Couch Grass
+Lathyrus pratensis,Meadow Vetchling
+Rumex obtusifolius,Broad-leaved Dock
+Phalaris arundinacea,Reed Canary Grass
+Pilosella officinarum,Mouse-ear Hawkweed
+Fragaria vesca,Wild Strawberry
+Acanthiza pusilla,Brown Thornbill
+Opisthograptis luteolata,Brimstone Moth
+Cardamine pratensis,Cuckooflower
+Selasphorus sasin,Allen's Hummingbird
+Prinia inornata,Plain Prinia
+Ochropleura plecta,Flame Shoulder Moth
+Thymelicus sylvestris,Small Skipper Butterfly
+Rumex acetosella,Sheep's Sorrel
+Acer platanoides,Norway Maple
+Chamaenerion angustifolium,Fireweed
+Dryobates minor,Lesser Spotted Woodpecker
+Apamea monoglypha,Dark Arches Moth
+Ixoreus naevius,Varied Thrush
+Artemisia vulgaris,Common Mugwort
+Idaea aversata,Riband Wave Moth
+Merops orientalis,Green Bee-eater
+Dryopteris filix-mas,Male Fern
+Galium verum,Lady's Bedstraw
+Gavia arctica,Black-throated Loon
+Populus tremula,European Aspen
+Callipepla gambelii,Gambel's Quail
+Perdix perdix,Grey Partridge
+Piaya cayana,Squirrel Cuckoo
+Bonasa umbellus,Ruffed Grouse
+Haematopus palliatus,American Oystercatcher
+Porphyrio porphyrio,Purple Swamphen
+Rallus limicola,Virginia Rail
+Cinnyris asiaticus,Purple Sunbird
+Scolopax rusticola,Eurasian Woodcock
+Microcarbo niger,Little Cormorant
+Cinclus cinclus,White-throated Dipper
+Argynnis paphia,Silver-washed Fritillary
+Spiza americana,Dickcissel
+Ichthyaetus melanocephalus,Mediterranean Gull
+Rumex crispus,Curled Dock
+Streptopelia turtur,European Turtle Dove
+Argentina anserina,Silverweed
+Caltha palustris,Marsh Marigold
+Epilobium hirsutum,Great Willowherb
+Capsella bursa-pastoris,Shepherd's Purse
+Medicago lupulina,Black Medick
+Cepphus grylle,Black Guillemot
+Leucanthemum vulgare,Oxeye Daisy
+Elanus caeruleus,Black-winged Kite
+Bombus pascuorum,Common Carder Bee
+Rubus idaeus,Red Raspberry
+Euphagus carolinus,Rusty Blackbird
+Haliastur indus,Brahminy Kite
+Eupatorium cannabinum,Hemp-agrimony
+Iris pseudacorus,Yellow Flag Iris
+Salix caprea,Goat Willow
+Ficaria verna,Lesser Celandine
+Icterus cucullatus,Hooded Oriole
+Tussilago farfara,Coltsfoot
+Ptilotula penicillata,White-plumed Honeyeater
+Accipiter gentilis,Northern Goshawk
+Amaurornis phoenicurus,White-breasted Waterhen
+Lapsana communis,Common Nipplewort
+Lysimachia vulgaris,Yellow Loosestrife
+Acrocephalus palustris,Marsh Warbler
+Orthosia gothica,Hebrew Character Moth
+Phalacrocorax pelagicus,Pelagic Cormorant
+Rana temporaria,Common Frog
+Galium palustre,Marsh Bedstraw
+Passerina amoena,Lazuli Bunting
+Sericornis frontalis,White-browed Scrubwren
+Betula pubescens,Downy Birch
+Protonotaria citrea,Prothonotary Warbler
+Pachycephala rufiventris,Rufous Whistler
+Solanum dulcamara,Bittersweet Nightshade
+Cairina moschata,Muscovy Duck
+Cistus ladanifer,Gum Rockrose
+Lasiommata megera,Wall Brown Butterfly
+Phylidonyris novaehollandiae,New Holland Honeyeater
+Athene noctua,Little Owl
+Carex nigra,Common Sedge
+Anemone nemorosa,Wood Anemone
+Melanitta fusca,Velvet Scoter
+Oriolus oriolus,Eurasian Golden Oriole
+Crotophaga ani,Smooth-billed Ani
+Convolvulus arvensis,Field Bindweed
+Jacobaea vulgaris,Common Ragwort
+Lonicera periclymenum,European Honeysuckle
+Rynchops niger,Black Skimmer
+Oryza sativa,Asian Rice
+Potentilla reptans,Creeping Cinquefoil
+Carex flacca,Glaucous Sedge
+Coenagrion puella,Azure Damselfly
+Pardalotus punctatus,Spotted Pardalote
+Selasphorus platycercus,Broad-tailed Hummingbird
+Streptopelia capicola,Ring-necked Dove
+Aphelocoma woodhouseii,Woodhouse's Scrub-Jay
+Pelecanus conspicillatus,Australian Pelican
+Vicia sativa,Common Vetch
+Baeolophus atricristatus,Black-crested Titmouse
+Parkesia motacilla,Louisiana Waterthrush
+Senecio vulgaris,Common Groundsel
+Phainopepla nitens,Phainopepla
+Ilex aquifolium,European Holly
+Leptocoma zeylonica,Purple-rumped Sunbird
+Empidonax alnorum,Alder Flycatcher
+Leucophaeus pipixcan,Franklin's Gull
+Polygonum aviculare,Common Knotgrass
+Spizella pallida,Clay-colored Sparrow
+Pinus pinaster,Maritime Pine
+Lycopus europaeus,Gypsywort
+Cecropis daurica,Red-rumped Swallow
+Calystegia sepium,Hedge Bindweed
+Ajuga reptans,Bugle
+Megarynchus pitangua,Boat-billed Flycatcher
+Phalacrocorax sulcirostris,Little Black Cormorant
+Aegopodium podagraria,Ground Elder
+Peribatodes rhomboidaria,Willow Beauty Moth
+Molothrus bonariensis,Shiny Cowbird
+Bufo bufo,Common Toad
+Athyrium filix-femina,Lady Fern
+Gyps fulvus,Griffon Vulture
+Pipistrellus kuhlii,Kuhl's Pipistrelle
+Gallinula tenebrosa,Dusky Moorhen
+Chlidonias hybrida,Whiskered Tern
+Acer campestre,Field Maple
+Phalaropus lobatus,Red-necked Phalarope
+Sympetrum striolatum,Common Darter Dragonfly
+Cardellina canadensis,Canada Warbler
+Lamium galeobdolon,Yellow Archangel
+Thalasseus bergii,Greater Crested Tern
+Pavo cristatus,Indian Peafowl
+Bostrychia hagedash,Hadada Ibis
+Carpinus betulus,European Hornbeam
+Passerina ciris,Painted Bunting
+Tanacetum vulgare,Common Tansy
+Melanitta americana,American Scoter
+Furnarius rufus,Rufous Hornero
+Dives dives,Melodious Blackbird
+Butorides striata,Striated Heron
+Numenius americanus,Long-billed Curlew
+Cervus elaphus,Red Deer
+Emberiza cirlus,Cirl Bunting
+Sonchus asper,Prickly Sow-thistle
+Elanus leucurus,White-tailed Kite
+Silene dioica,Red Campion
+Panurus biarmicus,Bearded Reedling
+Streptopelia tranquebarica,Red Turtle Dove
+Todirostrum cinereum,Common Tody-Flycatcher
+Oxalis acetosella,Wood Sorrel
+Prinia socialis,Ashy Prinia
+Mentha aquatica,Water Mint
+Myadestes townsendi,Townsend's Solitaire
+Anthus petrosus,Rock Pipit
+Ligustrum vulgare,Common Privet
+Poterium sanguisorba,Salad Burnet
+Sialia currucoides,Mountain Bluebird
+Campylorhynchus brunneicapillus,Cactus Wren
+Silene flos-cuculi,Ragged Robin
+Pinicola enucleator,Pine Grosbeak
+Geococcyx californianus,Greater Roadrunner
+Eopsaltria australis,Eastern Yellow Robin
+Chelidonium majus,Greater Celandine
+Centaurea jacea,Brown Knapweed
+Sciurus carolinensis,Eastern Gray Squirrel
+Phleum pratense,Timothy Grass
+Prunus avium,Wild Cherry
+Frangula alnus,Alder Buckthorn
+Dendrocitta vagabunda,Rufous Treepie
+Scolopax minor,American Woodcock
+Bromus hordeaceus,Soft Brome
+Vermivora cyanoptera,Blue-winged Warbler
+Contopus cooperi,Olive-sided Flycatcher
+Coccinella septempunctata,Seven-spotted Ladybird
+Impatiens glandulifera,Himalayan Balsam
+Stellaria graminea,Lesser Stitchwort
+Mimus gilvus,Tropical Mockingbird
+Dactylorhiza maculata,Heath Spotted Orchid
+Primula veris,Cowslip
+Wallabia bicolor,Swamp Wallaby
+Campanula rotundifolia,Harebell
+Streptopelia semitorquata,Red-eyed Dove
+Jynx torquilla,Eurasian Wryneck
+Enallagma cyathigerum,Common Blue Damselfly
+Vicia sepium,Bush Vetch
+Aramus guarauna,Limpkin
+Zosterops simplex,Swinhoe's White-eye
+Brachypodium sylvaticum,False Brome
+Urile penicillatus,Brandt's Cormorant
+Noctua comes,Lesser Yellow Underwing Moth
+Pachycephala pectoralis,Golden Whistler
+Psilopogon haemacephalus,Coppersmith Barbet
+Chenopodium album,White Goosefoot
+Sonchus oleraceus,Common Sowthistle
+Charadrius alexandrinus,Kentish Plover
+Orthetrum cancellatum,Black-tailed Skimmer
+Melozone aberti,Abert's Towhee
+Porphyrio melanotus,Australasian Swamphen
+Solidago virgaurea,European Goldenrod
+Stercorarius parasiticus,Arctic Jaeger
+Vaccinium vitis-idaea,Lingonberry
+Gadus morhua,Atlantic Cod
+Veronica persica,Persian Speedwell
+Euonymus europaeus,European Spindle
+Alburnus alburnus,Common Bleak
+Salix cinerea,Grey Willow
+Luscinia luscinia,Thrush Nightingale
+Hypena proboscidalis,Snout Moth
+Threskiornis spinicollis,Straw-necked Ibis
+Salpinctes obsoletus,Rock Wren
+Stachys sylvatica,Hedge Woundwort
+Asio flammeus,Short-eared Owl
+Lamium purpureum,Red Dead-nettle
+Aricia agestis,Brown Argus Butterfly
+Myiarchus tuberculifer,Dusky-capped Flycatcher
+Cerastium fontanum,Common Mouse-ear
+Hippolais icterina,Icterine Warbler
+Cerastium holosteoides,Common Mouse-ear Chickweed
+Lanius cristatus,Brown Shrike
+Phoenicopterus roseus,Greater Flamingo
+Circus pygargus,Montagu's Harrier
+Todiramphus sanctus,Sacred Kingfisher
+Phalaropus tricolor,Wilson's Phalarope
+Hydrocoloeus minutus,Little Gull
+Phylloscopus sibillatrix,Wood Warbler
+Sternula albifrons,Little Tern
+Neochmia temporalis,Red-browed Finch
+Psilopogon viridis,White-cheeked Barbet
+Colinus virginianus,Northern Bobwhite
+Patagioenas picazuro,Picazuro Pigeon
+Crotophaga sulcirostris,Groove-billed Ani
+Xanthorhoe fluctuata,Garden Carpet Moth
+Cracticus nigrogularis,Pied Butcherbird
+Knautia arvensis,Field Scabious
+Rabelera holostea,Greater Stitchwort
+Anax imperator,Emperor Dragonfly
+Volatinia jacarina,Blue-black Grassquit
+Xestia xanthographa,Square-spot Rustic Moth
+Hieraaetus pennatus,Booted Eagle
+Erigeron canadensis,Canadian Horseweed
+Juncus articulatus,Jointed Rush
+Alopecurus pratensis,Meadow Foxtail
+Mesapamea secalis,Common Rustic Moth
+Coturnix coturnix,Common Quail
+Melozone fusca,Canyon Towhee
+Acanthorhynchus tenuirostris,Eastern Spinebill
+Ammodramus savannarum,Grasshopper Sparrow
+Linaria vulgaris,Common Toadflax
+Thymelicus lineola,Essex Skipper
+Circaetus gallicus,Short-toed Snake Eagle
+Lichmera indistincta,Brown Honeyeater
+Estrilda astrild,Common Waxbill
+Tachybaptus novaehollandiae,Australasian Grebe
+Dysstroma truncata,Common Marbled Carpet Moth
+Luzula campestris,Field Wood-rush
+Cytisus scoparius,Common Broom
+Ictinia mississippiensis,Mississippi Kite
+Pyrrhosoma nymphula,Large Red Damselfly
+Viburnum opulus,Guelder Rose
+Lotus pedunculatus,Greater Bird's-foot Trefoil
+Clematis vitalba,Old Man's Beard
+Silene latifolia,White Campion
+Megascops asio,Eastern Screech Owl
+Apus affinis,Little Swift
+Ceryle rudis,Pied Kingfisher
+Cormobates leucophaea,White-throated Treecreeper
+Elaenia flavogaster,Yellow-bellied Elaenia
+Scorzoneroides autumnalis,Autumn Hawkbit
+Veronica officinalis,Heath Speedwell
+Caligavis chrysops,Yellow-faced Honeyeater
+Lacanobia oleracea,Bright-line Brown-eye Moth
+Hordeum vulgare,Barley
+Botaurus lentiginosus,American Bittern
+Haliastur sphenurus,Whistling Kite
+Silene vulgaris,Bladder Campion
+Heterocarpus reedi,Red Royal Shrimp
+Amphispiza bilineata,Black-throated Sparrow
+Megaptera novaeangliae,Humpback Whale
+Geothlypis tolmiei,MacGillivray's Warbler
+Succisa pratensis,Devil's-bit Scabious
+Clupea harengus,Atlantic Herring
+Bombus terrestris,Buff-tailed Bumblebee
+Briza media,Quaking Grass
+Botaurus stellaris,Eurasian Bittern
+Bos taurus,Domestic Cattle
+Ploceus velatus,Southern Masked Weaver
+Melanogrammus aeglefinus,Haddock
+Acanthiza chrysorrhoa,Yellow-rumped Thornbill
+Salvia rosmarinus,Rosemary
+Agrotis puta,Shuttle-shaped Dart Moth
+Lanius schach,Long-tailed Shrike
+Meliphaga lewinii,Lewin's Honeyeater
+Taraxacum officinale,Common Dandelion
+Motacilla capensis,Cape Wagtail
+Calcarius lapponicus,Lapland Longspur
+Abramis brama,Common Bream
+Sphyrapicus ruber,Red-breasted Sapsucker
+Veronica arvensis,Field Speedwell
+Asio otus,Long-eared Owl
+Aeronautes saxatalis,White-throated Swift
+Dryopteris carthusiana,Narrow Buckler-fern
+Vanellus armatus,Blacksmith Lapwing
+Numida meleagris,Helmeted Guineafowl
+Megaceryle torquata,Ringed Kingfisher
+Leptonychotes weddellii,Weddell Seal
+Reynoutria japonica,Japanese Knotweed
+Acridotheres javanicus,Javan Myna
+Cynosurus cristatus,Crested Dog's-tail
+Haemorhous cassinii,Cassin's Finch
+Papilio machaon,Old World Swallowtail
+Epirrhoe alternata,Common Carpet Moth
+Perisoreus canadensis,Gray Jay
+Euphorbia cyparissias,Cypress Spurge
+Prunus padus,Bird Cherry
+Senecio inaequidens,Narrow-leaved Ragwort
+Psephotus haematonotus,Red-rumped Parrot
+Pipistrellus pygmaeus,Soprano Pipistrelle
+Rivula sericealis,Straw Dot Moth
+Olea europaea,European Olive
+Saxicoloides fulicatus,Indian Robin
+Libellula quadrimaculata,Four-spotted Chaser
+Cyanocorax yncas,Green Jay
+Hirundo tahitica,Pacific Swallow
+Colias croceus,Clouded Yellow Butterfly
+Anser brachyrhynchus,Pink-footed Goose
+Equisetum fluviatile,Water Horsetail
+Turdoides striata,Jungle Babbler
+Alectoris rufa,Red-legged Partridge
+Typha latifolia,Broadleaf Cattail
+Galeopsis tetrahit,Common Hemp-nettle
+Bucephala islandica,Barrow's Goldeneye
+Phocoena phocoena,Harbor Porpoise
+Eriophorum angustifolium,Common Cottongrass
+Ranunculus flammula,Lesser Spearwort
+Glyceria fluitans,Floating Sweet-grass
+Cyclarhis gujanensis,Rufous-browed Peppershrike
+Pinus halepensis,Aleppo Pine
+Quelea quelea,Red-billed Quelea
+Phlogophora meticulosa,Angle Shades Moth
+Locustella naevia,Common Grasshopper Warbler
+Carex panicea,Carnation Sedge
+Agrimonia eupatoria,Common Agrimony
+Hypsipetes leucocephalus,Black Bulbul
+Sylvia melanocephala,Sardinian Warbler
+Matricaria discoidea,Pineapple Weed
+Orthosia cerasi,Common Quaker Moth
+Carex hirta,Hairy Sedge
+Histrionicus histrionicus,Harlequin Duck
+Carex rostrata,Beaked Sedge
+Persicaria amphibia,Water Smartweed
+Galium mollugo,Hedge Bedstraw
+Acrocephalus arundinaceus,Great Reed Warbler
+Rubus caesius,European Dewberry
+Teucrium scorodonia,Wood Sage
+Accipiter badius,Shikra
+Cacatua sanguinea,Little Corella
+Merops ornatus,Rainbow Bee-eater
+Empetrum nigrum,Black Crowberry
+Progne chalybea,Gray-breasted Martin
+Lamium album,White Dead-nettle
+Thraupis sayaca,Sayaca Tanager
+Viola riviniana,Common Dog Violet
+Equisetum palustre,Marsh Horsetail
+Bromus sterilis,Barren Brome
+Poa nemoralis,Wood Meadow-grass
+Chaetura vauxi,Vaux's Swift
+Erodium cicutarium,Common Stork's-bill
+Robinia pseudoacacia,Black Locust
+Hippolais polyglotta,Melodious Warbler
+Bromus erectus,Upright Brome
+Origanum vulgare,Wild Marjoram
+Beryx splendens,Splendid Alfonsino
+Rosa canina,Dog Rose
+Aegithina tiphia,Common Iora
+Araschnia levana,Map Butterfly
+Ranunculus bulbosus,Bulbous Buttercup
+Echium vulgare,Viper's Bugloss
+Trifolium dubium,Lesser Trefoil
+Grimothea monodon,Red Squat Lobster
+Cynanthus latirostris,Broad-billed Hummingbird
+Myosotis arvensis,Field Forget-me-not
+Catherpes mexicanus,Canyon Wren
+Ciconia nigra,Black Stork
+Spilosoma lubricipeda,White Ermine Moth
+Elanoides forficatus,Swallow-tailed Kite
+Nardus stricta,Mat Grass
+Puffinus griseus,Sooty Shearwater
+Anser fabalis,Bean Goose
+Dicrurus adsimilis,Fork-tailed Drongo
+Psilorhinus morio,Brown Jay
+Pluvialis fulva,Pacific Golden Plover
+Papaver rhoeas,Common Poppy
+Geopelia humeralis,Bar-shouldered Dove
+Lysimachia arvensis,Scarlet Pimpernel
+Dryopteris dilatata,Broad Buckler-fern
+Cepphus columba,Pigeon Guillemot
+Lolium arundinaceum,Tall Fescue
+Gelochelidon nilotica,Gull-billed Tern
+Carpodacus erythrinus,Common Rosefinch
+Hoplostethus atlanticus,Orange Roughy
