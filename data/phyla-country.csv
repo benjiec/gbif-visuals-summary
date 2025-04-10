@@ -15,8 +15,8 @@ Actinobacteriota,ES,170502,2
 Actinobacteriota,AU,148375,3
 Aenigmatarchaeota,BR,15,1
 Aenigmatarchaeota,SE,2,2
-Aerophobota,CN,1,1
-Aerophobota,SE,1,2
+Aerophobota,SE,1,1
+Aerophobota,CN,1,2
 Altiarchaeota,SE,1,1
 Altiarchaeota,US,1,2
 Altiarchaeota,FI,1,3
@@ -60,7 +60,7 @@ Bdellovibrionota,AU,57700,2
 Bdellovibrionota,SJ,25468,3
 Bdellovibrionota_C,SE,124,1
 Bdellovibrionota_C,DK,3,2
-Bdellovibrionota_C,AX,1,3
+Bdellovibrionota_C,DE,1,3
 Bigyra,US,23127,1
 Bigyra,AU,13830,2
 Bigyra,CA,6734,3
@@ -160,8 +160,8 @@ Deinococcota,US,15825,1
 Deinococcota,AU,9399,2
 Deinococcota,NZ,4780,3
 Delongbacteria,SE,5,1
-Delongbacteria,US,3,2
-Delongbacteria,RU,3,3
+Delongbacteria,RU,3,2
+Delongbacteria,US,3,3
 Dependentiae,SJ,1003,1
 Dependentiae,ES,846,2
 Dependentiae,SE,769,3
@@ -229,8 +229,8 @@ Fibrobacterota,US,18811,1
 Fibrobacterota,AU,10818,2
 Fibrobacterota,CN,3910,3
 Firestonebacteria,US,6,1
-Firestonebacteria,SE,1,2
-Firestonebacteria,CO,1,3
+Firestonebacteria,CO,1,2
+Firestonebacteria,SE,1,3
 Firmicutes,US,217874,1
 Firmicutes,AU,61421,2
 Firmicutes,CN,60631,3
@@ -274,8 +274,8 @@ Glomeromycota,AU,53830,1
 Glomeromycota,EE,10419,2
 Glomeromycota,US,7970,3
 Gnathostomulida,BZ,92,1
-Gnathostomulida,DK,39,2
-Gnathostomulida,SE,39,3
+Gnathostomulida,SE,39,2
+Gnathostomulida,DK,39,3
 Goldbacteria,SE,3,1
 Goldbacteria,JP,1,2
 Hadarchaeota,US,84,1
@@ -304,8 +304,8 @@ Hydrothermarchaeota,SJ,146,1
 Hydrothermarchaeota,ZZ,5,2
 Hydrothermarchaeota,MX,2,3
 Iainarchaeota,SE,5,1
-Iainarchaeota,US,1,2
-Iainarchaeota,CO,1,3
+Iainarchaeota,CO,1,2
+Iainarchaeota,US,1,3
 JAAXHH01,SE,18,1
 JABDJQ01,SE,3,1
 KSB1,SE,3,1
@@ -383,8 +383,8 @@ Myxococcota,US,145354,1
 Myxococcota,AU,39300,2
 Myxococcota,DE,31781,3
 Myxococcota_A,SE,2228,1
-Myxococcota_A,DK,9,2
-Myxococcota_A,FI,9,3
+Myxococcota_A,FI,9,2
+Myxococcota_A,DK,9,3
 Myzozoa,AU,261716,1
 Myzozoa,US,240974,2
 Myzozoa,SE,236449,3
@@ -417,8 +417,8 @@ Nitrospirota,US,27767,1
 Nitrospirota,AU,10262,2
 Nitrospirota,CN,7467,3
 Nitrospirota_A,CO,28,1
-Nitrospirota_A,IN,2,2
-Nitrospirota_A,CN,2,3
+Nitrospirota_A,CN,2,2
+Nitrospirota_A,IN,2,3
 Nucleocytoviricota,US,1989,1
 Nucleocytoviricota,IN,1310,2
 Nucleocytoviricota,CN,936,3
@@ -499,8 +499,8 @@ Saleviricota,AU,4,1
 Saleviricota,TH,3,2
 Saleviricota,SN,3,3
 Sanchytriomycota,FI,166,1
-Sanchytriomycota,PL,39,2
-Sanchytriomycota,CA,39,3
+Sanchytriomycota,CA,39,2
+Sanchytriomycota,PL,39,3
 Sarcomastigophora,US,7243,1
 Sarcomastigophora,AU,4150,2
 Sarcomastigophora,CO,2364,3
@@ -543,7 +543,7 @@ Thermoproteota,AU,36173,2
 Thermoproteota,CN,14314,3
 Thermosulfidibacterota,NZ,82,1
 Thermosulfidibacterota,GN,15,2
-Thermosulfidibacterota,LR,13,3
+Thermosulfidibacterota,IN,13,3
 Thermotogota,US,1990,1
 Thermotogota,NZ,1837,2
 Thermotogota,AU,1138,3
