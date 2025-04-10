@@ -1,0 +1,26 @@
+This codebase is entirely developed using Cursor, with AI doing all of the programming.
+
+To enable Cursor to access the GBIF BigQuery database, use this MCP server
+
+https://github.com/ANewProfile/gbif-bigquery-mcp
+
+And configure it into Cursor like this
+
+{
+  "mcpServers": {
+    "gbif-bigquery": {
+      "command": "node",
+      "args": [
+        "/Users/benjie/git/gbif-ai/gbif-bigquery-mcp/dist/index.js",
+        "--project-id",
+        "gbif-data-if-i-can-get-it",
+        "--key-file",
+        "/Users/benjie/.config/gcloud/gbif_service_account_key.json"
+      ]
+    }
+  }
+}
+
+Additionally, it is helpful to provide gbif-context.txt to Cursor as a context,
+using the "Add Context" button.
+

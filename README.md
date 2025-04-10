@@ -2,6 +2,70 @@
 
 A visualization of GBIF data showing the distribution of species across kingdoms and phyla.
 
+## About GBIF Dataset
+
+The Global Biodiversity Information Facility (GBIF) is an international network and research infrastructure aimed at providing open access to data about all types of life on Earth. This visualization uses GBIF occurrence data, which includes:
+
+- Species observations from scientific surveys
+- Museum and herbarium collections
+- Citizen science reports
+- Research datasets
+
+The data represents biodiversity across:
+- Multiple kingdoms (animals, plants, fungi, etc.)
+- Various phyla within each kingdom
+- Individual species within each phylum
+- Global occurrence counts and distributions
+
+Our visualization specifically focuses on organizing and displaying this hierarchical biodiversity data, making it easier to understand the relative abundance and diversity of different taxonomic groups.
+
+## Querying GBIF Data
+
+GBIF data can be accessed in several ways:
+
+1. **BigQuery Public Dataset**
+   - GBIF data is available as a public dataset in Google BigQuery
+   - Dataset name: `bigquery-public-data.gbif.occurrences`
+   - Example query:
+     ```sql
+     SELECT kingdom, COUNT(*) as count
+     FROM `bigquery-public-data.gbif.occurrences`
+     WHERE occurrencestatus = 'PRESENT'
+     GROUP BY kingdom
+     ORDER BY count DESC
+     ```
+
+2. **GBIF API**
+   - RESTful API available at https://api.gbif.org/v1/
+   - Endpoints for occurrence data, taxonomy, datasets, etc.
+   - Example API call:
+     ```
+     https://api.gbif.org/v1/occurrence/search?kingdom=Animalia&occurrenceStatus=PRESENT
+     ```
+
+3. **GBIF Website**
+   - Interactive web portal at https://www.gbif.org/
+   - Search and download data through the user interface
+   - Access occurrence records, species information, and more
+
+### Important Data Notes
+
+1. **Filtering Occurrences**
+   - Always filter by `occurrencestatus = 'PRESENT'` unless specifically looking for absence records
+   - The dataset includes both presence and absence observations
+
+2. **Data Structure**
+   - The data follows the Darwin Core standard (https://dwc.tdwg.org/terms/)
+   - Taxonomic hierarchy columns: kingdom → phylum → class → order → family → genus → species
+   - These should be treated as a hierarchical structure rather than independent variables
+
+3. **Counting Records**
+   - Number of occurrences (rows) ≠ number of individuals
+   - Use `individualcount` column for actual individual counts
+   - Some records may represent multiple individuals
+
+For this visualization, we primarily use the BigQuery dataset to aggregate occurrence counts across taxonomic levels.
+
 ## Features
 
 - Interactive visualization of species distribution
