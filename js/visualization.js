@@ -51,7 +51,7 @@ async function init() {
             d3.csv('data/phyla.csv'),
             d3.csv('data/species.csv'),
             d3.csv('data/phyla-country.csv'),
-            d3.json('data/common-names.json')
+            d3.csv('data/common-names.csv')
         ]);
 
         // Store data
@@ -59,7 +59,10 @@ async function init() {
         phyla = phylaData || [];
         species = speciesData || [];
         countries = countriesData || [];
-        commonNames = commonNamesData || {};
+        // Convert CSV data to a map for easier lookup
+        commonNames = Object.fromEntries(
+            (commonNamesData || []).map(row => [row.scientific_name, row.common_name])
+        );
 
         // Verify data
         if (!kingdoms.length || !phyla.length) {
@@ -212,7 +215,7 @@ function createVisualization() {
             .on('mouseover', (event, d) => {
                 const name = getDisplayName(d.phylum, 'phylum');
                 const percentage = ((+d.occurrence_count / total) * 100).toFixed(1);
-                const description = commonNames.phyla[d.phylum]?.description || '';
+                const description = commonNames[d.phylum]?.description || '';
                 const tooltip = d3.select('#tooltip');
                 tooltip.style('visibility', 'visible')
                     .style('background-color', '#f8f8f8')
@@ -258,7 +261,7 @@ function createVisualization() {
             .on('mouseover', (event, d) => {
                 const name = getDisplayName(d.phylum, 'phylum');
                 const percentage = ((+d.occurrence_count / total) * 100).toFixed(1);
-                const description = commonNames.phyla[d.phylum]?.description || '';
+                const description = commonNames[d.phylum]?.description || '';
                 const tooltip = d3.select('#tooltip');
                 tooltip.style('visibility', 'visible')
                     .style('background-color', '#f8f8f8')
@@ -332,7 +335,7 @@ function updateDetails() {
         const scientificName = phylum.phylum;
         const totalOccurrences = formatNumber(phylum.occurrence_count);
         const totalIndividuals = formatNumber(phylum.individual_count);
-        const description = commonNames.phyla[phylum.phylum]?.description || '';
+        const description = commonNames[phylum.phylum]?.description || '';
 
         titleGroup.append('text')
             .attr('class', 'phylum-title')
@@ -540,13 +543,14 @@ function createCountryChart(phylum, yOffset) {
  */
 function getDisplayName(name, type) {
     if (type === 'phylum') {
-        if (commonNames.phyla && commonNames.phyla[name]) {
-            return commonNames.phyla[name].common_name;
+        if (commonNames[name]) {
+            return commonNames[name].common_name;
         }
         return name; // Return scientific name if no common name
     }
-    if (type === 'species' && commonNames.species && commonNames.species[name]) {
-        return `${commonNames.species[name].common_name} (${name})`;
+    if (type === 'species') {
+        const commonName = commonNames[name];
+        return commonName ? `${commonName} (${name})` : name;
     }
     return name;
 }
