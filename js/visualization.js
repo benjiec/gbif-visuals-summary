@@ -151,6 +151,22 @@ function renderTaxonomicLevel(level, parent, depth) {
         totalIndividuals = d3.sum(data, d => +(d.individual_count || 0));
     }
 
+    // Create logarithmic scale for percentages
+    const availableWidth = config.width - config.margin.left - config.margin.right - xOffset;
+    const logScale = d3.scaleLog()
+        .domain([0.01, 100])  // Handle percentages from 0.01% to 100%
+        .range([0, availableWidth])  // Full width range
+        .clamp(true);  // Clamp values to the range
+
+    // Calculate total width needed for log scale
+    const totalLogWidth = d3.sum(data, d => {
+        const percentage = (+d.occurrence_count / totalOccurrences) * 100;
+        return logScale(Math.max(0.01, percentage));
+    });
+
+    // Scale factor to ensure bars fill available width
+    const scaleFactor = availableWidth / totalLogWidth;
+
     // Calculate percentage of parent's total if this is an expanded level
     let percentageOfParent = '';
     if (parent) {
@@ -186,14 +202,18 @@ function renderTaxonomicLevel(level, parent, depth) {
         .attr('class', 'segment')
         .attr('transform', d => {
             const x = cumulativeX;
-            const width = (config.width - config.margin.left - config.margin.right - xOffset) * (+d.occurrence_count / totalOccurrences);
+            const percentage = (+d.occurrence_count / totalOccurrences) * 100;
+            const width = logScale(Math.max(0.01, percentage)) * scaleFactor;
             cumulativeX += width;
             return `translate(${x}, 0)`;
         });
 
     // Add rectangles for segments
     segments.append('rect')
-        .attr('width', d => (config.width - config.margin.left - config.margin.right - xOffset) * (+d.occurrence_count / totalOccurrences))
+        .attr('width', d => {
+            const percentage = (+d.occurrence_count / totalOccurrences) * 100;
+            return logScale(Math.max(0.01, percentage)) * scaleFactor;
+        })
         .attr('height', config.barHeight)
         .attr('fill', d => getTermColor(d[level]))
         .style('cursor', level === 'species' ? 'default' : 'pointer')
