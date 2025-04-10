@@ -277,20 +277,34 @@ function filterTaxonomicData(level, parent) {
         .filter(d => d[parentLevel] === parent)
         .sort((a, b) => +b.occurrence_count - +a.occurrence_count);
 
-    // Add "Other species" category if we're at species level
-    if (level === 'species') {
-        // Get the parent record to get its total occurrences
+    // Add "Unaccounted" category if there's a discrepancy between parent total and sum of children
+    if (level !== 'species') {  // Handle all levels except species (which has its own special case)
         const parentRecord = taxonomyData[parentLevel].find(d => d[parentLevel] === parent);
         if (parentRecord) {
-            // Calculate sum of all species occurrences
+            const childrenSum = d3.sum(filteredData, d => +d.occurrence_count);
+            const remainder = +parentRecord.occurrence_count - childrenSum;
+            if (remainder > 0) {
+                filteredData.push({
+                    [level]: 'Unaccounted',
+                    occurrence_count: remainder,
+                    individual_count: 0,
+                    [parentLevel]: parent
+                });
+            }
+        }
+    }
+
+    // Add "Unaccounted species" category if we're at species level
+    if (level === 'species') {
+        const parentRecord = taxonomyData[parentLevel].find(d => d[parentLevel] === parent);
+        if (parentRecord) {
             const speciesSum = d3.sum(filteredData, d => +d.occurrence_count);
-            // If there's a remainder, add it as "Other species"
             const remainder = +parentRecord.occurrence_count - speciesSum;
             if (remainder > 0) {
                 filteredData.push({
-                    species: 'Other species',
+                    species: 'Unaccounted species',
                     occurrence_count: remainder,
-                    individual_count: 0,  // We don't have this information for other species
+                    individual_count: 0,
                     [parentLevel]: parent
                 });
             }
