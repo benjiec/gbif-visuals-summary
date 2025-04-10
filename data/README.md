@@ -1,103 +1,32 @@
-# GBIF Data Queries
+# GBIF Data Generation
 
 This directory contains data files generated from queries against the GBIF public dataset (`bigquery-public-data.gbif.occurrences`). The queries follow the Darwin Core standard for taxonomic data.
 
-## Query 1: Total Occurrences and Individual Counts by Phylum
+## Setup
 
-This query aggregates occurrence and individual counts for each phylum, grouped by kingdom:
-
-```sql
-SELECT 
-  phylum,
-  kingdom,
-  COUNT(*) as occurrence_count,
-  SUM(CAST(individualcount AS INT64)) as individual_count
-FROM `bigquery-public-data.gbif.occurrences`
-WHERE phylum IS NOT NULL 
-  AND occurrencestatus = 'PRESENT'
-GROUP BY phylum, kingdom
-ORDER BY phylum;
+1. Install the required Python package:
+```bash
+pip install google-cloud-bigquery
 ```
 
-Output: [phyla.csv](phyla.csv)
+2. You'll need:
+   - A Google Cloud service account key file (JSON format)
+   - Your Google Cloud project ID with access to BigQuery
 
-## Query 2: Top 3 Countries by Occurrences for Each Phylum
+## Usage
 
-This query identifies the three countries with the most occurrences for each phylum:
-
-```sql
-WITH RankedPhylaByCountry AS (
-  SELECT 
-    phylum,
-    countrycode as country,
-    COUNT(*) as occurrence_count,
-    ROW_NUMBER() OVER (PARTITION BY phylum ORDER BY COUNT(*) DESC) as rank
-  FROM `bigquery-public-data.gbif.occurrences`
-  WHERE phylum IS NOT NULL 
-    AND countrycode IS NOT NULL
-    AND occurrencestatus = 'PRESENT'
-  GROUP BY phylum, countrycode
-)
-SELECT 
-  phylum,
-  country,
-  occurrence_count,
-  rank
-FROM RankedPhylaByCountry
-WHERE rank <= 3
-ORDER BY phylum, rank;
+Run the script to generate all CSV files:
+```bash
+python data/query_to_csv.py --key-file path/to/your/service-account-key.json --project-id your-project-id
 ```
 
-Output: [phyla-country.csv](phyla-country.csv)
+## Generated Files
 
-## Query 3: Top 5 Species by Occurrences for Each Phylum
-
-This query finds the five most frequently observed species within each phylum:
-
-```sql
-WITH SpeciesRanks AS (
-  SELECT 
-    species,
-    phylum,
-    COUNT(*) as occurrence_count,
-    ROW_NUMBER() OVER (PARTITION BY phylum ORDER BY COUNT(*) DESC) as rank
-  FROM `bigquery-public-data.gbif.occurrences`
-  WHERE species IS NOT NULL 
-    AND phylum IS NOT NULL
-    AND occurrencestatus = 'PRESENT'
-  GROUP BY species, phylum
-)
-SELECT 
-  species,
-  phylum,
-  occurrence_count,
-  rank
-FROM SpeciesRanks
-WHERE rank <= 5
-ORDER BY phylum, rank;
-```
-
-Output: [species.csv](species.csv)
-
-## Query 4: Kingdom Distribution by Phylum
-
-This query shows the distribution of kingdoms for each phylum:
-
-```sql
-SELECT 
-  phylum,
-  kingdom,
-  COUNT(*) as occurrence_count,
-  SUM(CAST(individualcount AS INT64)) as individual_count
-FROM `bigquery-public-data.gbif.occurrences`
-WHERE phylum IS NOT NULL 
-  AND kingdom IS NOT NULL
-  AND occurrencestatus = 'PRESENT'
-GROUP BY phylum, kingdom
-ORDER BY phylum, kingdom;
-```
-
-Output: [kingdom.csv](kingdom.csv)
+The script generates the following files:
+- `phyla.csv`: Total occurrences and individual counts by phylum
+- `phyla-country.csv`: Top 3 countries by occurrences for each phylum
+- `species.csv`: Top 5 species by occurrence count for each phylum
+- `kingdom.csv`: Kingdom distribution by phylum
 
 ## Notes
 
