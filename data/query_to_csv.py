@@ -51,6 +51,62 @@ def get_queries():
             ORDER BY phylum;
         """,
         
+        "classes.csv": """
+            SELECT 
+              class,
+              phylum,
+              COUNT(*) as occurrence_count,
+              SUM(CAST(individualcount AS INT64)) as individual_count
+            FROM `bigquery-public-data.gbif.occurrences`
+            WHERE class IS NOT NULL 
+              AND phylum IS NOT NULL
+              AND occurrencestatus = 'PRESENT'
+            GROUP BY class, phylum
+            ORDER BY class;
+        """,
+        
+        "orders.csv": """
+            SELECT 
+              `order`,
+              class,
+              COUNT(*) as occurrence_count,
+              SUM(CAST(individualcount AS INT64)) as individual_count
+            FROM `bigquery-public-data.gbif.occurrences`
+            WHERE `order` IS NOT NULL 
+              AND class IS NOT NULL
+              AND occurrencestatus = 'PRESENT'
+            GROUP BY `order`, class
+            ORDER BY `order`;
+        """,
+        
+        "families.csv": """
+            SELECT 
+              family,
+              `order`,
+              COUNT(*) as occurrence_count,
+              SUM(CAST(individualcount AS INT64)) as individual_count
+            FROM `bigquery-public-data.gbif.occurrences`
+            WHERE family IS NOT NULL 
+              AND `order` IS NOT NULL
+              AND occurrencestatus = 'PRESENT'
+            GROUP BY family, `order`
+            ORDER BY family;
+        """,
+        
+        "genera.csv": """
+            SELECT 
+              genus,
+              family,
+              COUNT(*) as occurrence_count,
+              SUM(CAST(individualcount AS INT64)) as individual_count
+            FROM `bigquery-public-data.gbif.occurrences`
+            WHERE genus IS NOT NULL 
+              AND family IS NOT NULL
+              AND occurrencestatus = 'PRESENT'
+            GROUP BY genus, family
+            ORDER BY genus;
+        """,
+        
         "phyla-country.csv": """
             WITH RankedPhylaByCountry AS (
               SELECT 
@@ -77,25 +133,25 @@ def get_queries():
         "species.csv": """
             WITH SpeciesRanks AS (
               SELECT 
-                phylum,
                 species,
+                genus,
                 COUNT(*) as occurrence_count,
                 SUM(CAST(individualcount AS INT64)) as individual_count,
-                ROW_NUMBER() OVER (PARTITION BY phylum ORDER BY COUNT(*) DESC) as rank
+                ROW_NUMBER() OVER (PARTITION BY genus ORDER BY COUNT(*) DESC) as rank
               FROM `bigquery-public-data.gbif.occurrences`
               WHERE species IS NOT NULL 
-                AND phylum IS NOT NULL
+                AND genus IS NOT NULL
                 AND occurrencestatus = 'PRESENT'
-              GROUP BY phylum, species
+              GROUP BY species, genus
             )
             SELECT 
-              phylum,
               species,
+              genus,
               occurrence_count,
               individual_count
             FROM SpeciesRanks
             WHERE rank <= 5
-            ORDER BY phylum, rank;
+            ORDER BY genus, rank;
         """,
         
         "kingdom.csv": """
