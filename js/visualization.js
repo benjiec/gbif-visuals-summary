@@ -166,8 +166,8 @@ function renderTaxonomicLevel(level, parent, depth) {
         .attr('x', xOffset)
         .attr('y', yOffset - 5)
         .text(parent ? 
-            `${capitalizeFirst(level)} of ${getDisplayName(parent, getPreviousLevel(level))} (${formatNumber(totalOccurrences)} occurrences${percentageOfParent}, ${formatNumber(totalIndividuals)} individuals)` : 
-            `${capitalizeFirst(level)} (${formatNumber(totalOccurrences)} occurrences, ${formatNumber(totalIndividuals)} individuals)`)
+            `${getPluralForm(level)} of ${getDisplayName(parent, getPreviousLevel(level))} (${formatNumber(totalOccurrences)} occurrences${percentageOfParent}, ${formatNumber(totalIndividuals)} individuals)` : 
+            `${getPluralForm(level)} (${formatNumber(totalOccurrences)} occurrences, ${formatNumber(totalIndividuals)} individuals)`)
         .style('font-size', '14px')
         .style('font-weight', 'bold');
 
@@ -394,6 +394,22 @@ function getDisplayName(name, level) {
  */
 function capitalizeFirst(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+/**
+ * Get plural form of taxonomic level
+ */
+function getPluralForm(level) {
+    const plurals = {
+        'kingdom': 'Kingdoms',
+        'phylum': 'Phyla',
+        'class': 'Classes',
+        'order': 'Orders',
+        'family': 'Families',
+        'genus': 'Genera',
+        'species': 'Species'
+    };
+    return plurals[level] || capitalizeFirst(level + 's');
 }
 
 // Initialize visualization
