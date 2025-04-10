@@ -253,9 +253,31 @@ function filterTaxonomicData(level, parent) {
     }
     
     const parentLevel = getPreviousLevel(level);
-    return taxonomyData[level]
+    let filteredData = taxonomyData[level]
         .filter(d => d[parentLevel] === parent)
         .sort((a, b) => +b.occurrence_count - +a.occurrence_count);
+
+    // Add "Other species" category if we're at species level
+    if (level === 'species') {
+        // Get the parent record to get its total occurrences
+        const parentRecord = taxonomyData[parentLevel].find(d => d[parentLevel] === parent);
+        if (parentRecord) {
+            // Calculate sum of all species occurrences
+            const speciesSum = d3.sum(filteredData, d => +d.occurrence_count);
+            // If there's a remainder, add it as "Other species"
+            const remainder = +parentRecord.occurrence_count - speciesSum;
+            if (remainder > 0) {
+                filteredData.push({
+                    species: 'Other species',
+                    occurrence_count: remainder,
+                    individual_count: 0,  // We don't have this information for other species
+                    [parentLevel]: parent
+                });
+            }
+        }
+    }
+
+    return filteredData;
 }
 
 /**
