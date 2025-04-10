@@ -1,0 +1,1509 @@
+Animalia
+Plantae
+Fungi
+Bacteria
+Chromista
+incertae sedis
+Protozoa
+Viruses
+Archaea
+Chordata
+Tracheophyta
+Arthropoda
+Basidiomycota
+Mollusca
+Ascomycota
+Bryophyta
+Proteobacteria
+Ochrophyta
+Annelida
+Cnidaria
+Marchantiophyta
+Rhodophyta
+Echinodermata
+Bacteroidota
+Foraminifera
+Myzozoa
+Actinobacteriota
+Chlorophyta
+Porifera
+Ciliophora
+Verrucomicrobiota
+Brachiopoda
+Cyanobacteria
+Mycetozoa
+Firmicutes
+Planctomycetota
+Bryozoa
+Mucoromycota
+Nematoda
+Acidobacteriota
+Chloroflexota
+Platyhelminthes
+Desulfobacterota
+Charophyta
+Haptophyta
+Firmicutes_A
+Myxococcota
+Negarnaviricota
+Bdellovibrionota
+Cryptophyta
+Chytridiomycota
+Chaetognatha
+Oomycota
+Campylobacterota
+Euglenozoa
+Gemmatimonadota
+Rotifera
+Thermoproteota
+Chlamydiota
+Nemertea
+Cercozoa
+Spirochaetota
+Glomeromycota
+Pisuviricota
+Amoebozoa
+Choanozoa
+Sipuncula
+Armatimonadota
+Nitrospirota
+Halobacteriota
+Nitrospinota
+Bigyra
+Kitrinoviricota
+Firmicutes_C
+Fusobacteriota
+Firmicutes_B
+Fibrobacterota
+Desulfobacterota_I
+Tardigrada
+Elusimicrobiota
+Thermoplasmatota
+Hemichordata
+Zoopagomycota
+Deinococcota
+Phoronida
+Artverviricota
+Duplornaviricota
+Ctenophora
+Calditrichota
+Picozoa
+Cressdnaviricota
+Sulcozoa
+Anthocerotophyta
+Synergistota
+Sarcomastigophora
+Acanthocephala
+Priapulida
+Uroviricota
+Cossaviricota
+Deferribacterota
+Nucleocytoviricota
+Firmicutes_G
+Patescibacteria
+Blastocladiomycota
+Peploviricota
+Kinorhyncha
+Entomophthoromycota
+Methanobacteriota
+Firmicutes_F
+Aves
+Magnoliopsida
+Insecta
+Liliopsida
+Mammalia
+Agaricomycetes
+Polypodiopsida
+Bryopsida
+Gastropoda
+Amphibia
+Malacostraca
+Lecanoromycetes
+Arachnida
+Squamata
+Pinopsida
+Bivalvia
+Gammaproteobacteria
+Polychaeta
+Bacillariophyceae
+Alphaproteobacteria
+Jungermanniopsida
+Copepoda
+Anthozoa
+Elasmobranchii
+Florideophyceae
+Sordariomycetes
+Bacteroidia
+Dinophyceae
+Phaeophyceae
+Globothalamea
+Dothideomycetes
+Testudines
+Leotiomycetes
+Lycopodiopsida
+Actinomycetia
+Clitellata
+Eurotiomycetes
+Sphagnopsida
+Pucciniomycetes
+Collembola
+Cephalopoda
+Polytrichopsida
+Ulvophyceae
+Demospongiae
+Pezizomycetes
+Cyanobacteriia
+Bacilli
+Verrucomicrobiae
+Hydrozoa
+Myxomycetes
+Asteroidea
+Echinoidea
+Rhynchonellata
+Ophiuroidea
+Arthoniomycetes
+Planctomycetia
+Tremellomycetes
+Prymnesiophyceae
+Chlorophyceae
+Gymnolaemata
+Clostridia
+Ostracoda
+Chromadorea
+Diplopoda
+Mortierellomycetes
+Holothuroidea
+Marchantiopsida
+Maxillopoda
+Ascidiacea
+Branchiopoda
+Insthoviricetes
+Charophyceae
+Oligotrichea
+Trilobita
+Thermoleophilia
+Spirotrichea
+Cryptophyceae
+Petromyzonti
+Crocodylia
+Acidobacteriae
+Anaerolineae
+Chilopoda
+Polyplacophora
+Myxococcia
+Crinoidea
+Campylobacteria
+Polyangia
+Peronosporea
+Dictyochophyceae
+Eurotatoria
+Chrysophyceae
+Trebouxiophyceae
+Acidimicrobiia
+Dacrymycetes
+Hypotrichea
+Phycisphaerae
+Trematoda
+Stenolaemata
+Scyphozoa
+Saccharomycetes
+Passeriformes
+Anseriformes
+Charadriiformes
+Lepidoptera
+Accipitriformes
+Piciformes
+Columbiformes
+Pelecaniformes
+Poales
+Asterales
+Lamiales
+Coleoptera
+Fabales
+Rosales
+Apodiformes
+Gruiformes
+Caryophyllales
+Suliformes
+Diptera
+Hymenoptera
+Malpighiales
+Falconiformes
+Asparagales
+Coraciiformes
+Podicipediformes
+Psittaciformes
+Galliformes
+Ericales
+Ranunculales
+Gentianales
+Odonata
+Fagales
+Apiales
+Brassicales
+Polypodiales
+Myrtales
+Cuculiformes
+Hemiptera
+Strigiformes
+Rodentia
+Agaricales
+Anura
+Chiroptera
+Dipsacales
+Sapindales
+Carnivora
+Pinales
+Decapoda
+Malvales
+Araneae
+Orthoptera
+Artiodactyla
+Hypnales
+Solanales
+Lecanorales
+Procellariiformes
+Alismatales
+Boraginales
+Saxifragales
+Gaviiformes
+Stylommatophora
+Geraniales
+Ciconiiformes
+Trichoptera
+Polyporales
+Caprimulgiformes
+Liliales
+Bucerotiformes
+Caudata
+Diprotodontia
+Russulales
+Equisetales
+Cetacea
+Neogastropoda
+Calanoida
+Littorinimorpha
+Dicranales
+Lagomorpha
+Jungermanniales
+Rotaliida
+Ephemeroptera
+Oxalidales
+Cornales
+Amphipoda
+Bryales
+Proteales
+Sphenisciformes
+Celastrales
+Laurales
+Helotiales
+Phyllodocida
+Pottiales
+Boletales
+Trogoniformes
+Sphagnales
+Scleractinia
+Arecales
+Peltigerales
+Pucciniales
+Soricomorpha
+Anatidae
+Corvidae
+Passerellidae
+Fringillidae
+Picidae
+Columbidae
+Laridae
+Parulidae
+Turdidae
+Accipitridae
+Paridae
+Icteridae
+Ardeidae
+Scolopacidae
+Tyrannidae
+Asteraceae
+Poaceae
+Hirundinidae
+Cardinalidae
+Nymphalidae
+Troglodytidae
+Sturnidae
+Muscicapidae
+Fabaceae
+Noctuidae
+Charadriidae
+Passeridae
+Mimidae
+Rosaceae
+Rallidae
+Sittidae
+Geometridae
+Cathartidae
+Phalacrocoracidae
+Trochilidae
+Falconidae
+Motacillidae
+Lamiaceae
+Podicipedidae
+Cyperaceae
+Vireonidae
+Psittacidae
+Thraupidae
+Pieridae
+Regulidae
+Alcedinidae
+Sylviidae
+Phylloscopidae
+Phasianidae
+Caryophyllaceae
+Plantaginaceae
+Ranunculaceae
+Brassicaceae
+Apiaceae
+Cuculidae
+Meliphagidae
+Apodidae
+Cyprinidae
+Orchidaceae
+Threskiornithidae
+Lycaenidae
+Strigidae
+Rubiaceae
+Emberizidae
+Polygonaceae
+Erebidae
+Ericaceae
+Alaudidae
+Fagaceae
+Acrocephalidae
+Bombycillidae
+Vespertilionidae
+Pandionidae
+Apidae
+Pycnonotidae
+Cisticolidae
+Juncaceae
+Laniidae
+Salicaceae
+Polioptilidae
+Recurvirostridae
+Pelecanidae
+Salmonidae
+Certhiidae
+Gaviidae
+Furnariidae
+Pinaceae
+Euphorbiaceae
+Caprifoliaceae
+Aegithalidae
+Haematopodidae
+Betulaceae
+Libellulidae
+Gruidae
+Cracticidae
+Carabidae
+Primulaceae
+Boraginaceae
+Hesperiidae
+Alcidae
+Corvus
+Turdus
+Anas
+Larus
+Setophaga
+Ardea
+Zenaida
+Poecile
+Spinus
+Passer
+Branta
+Buteo
+Sturnus
+Melospiza
+Cardinalis
+Cyanocitta
+Columba
+Sitta
+Haemorhous
+Dryobates
+Melanerpes
+Phalacrocorax
+Agelaius
+Hirundo
+Zonotrichia
+Falco
+Calidris
+Tringa
+Quiscalus
+Cathartes
+Aythya
+Vireo
+Charadrius
+Troglodytes
+Regulus
+Colaptes
+Baeolophus
+Junco
+Egretta
+Parus
+Phylloscopus
+Mareca
+Sylvia
+Spizella
+Mimus
+Carex
+Sayornis
+Streptopelia
+Spatula
+Fulica
+Thryothorus
+Fringilla
+Motacilla
+Cygnus
+Bucephala
+Cyanistes
+Accipiter
+Pica
+Tachycineta
+Erithacus
+Pipilo
+Haliaeetus
+Tyrannus
+Emberiza
+Sialia
+Chroicocephalus
+Geothlypis
+Circus
+Pieris
+Mergus
+Anser
+Molothrus
+Dumetella
+Vanellus
+Anthus
+Icterus
+Bombycilla
+Podiceps
+Catharus
+Leuconotopicus
+Pandion
+Megaceryle
+Acrocephalus
+Aix
+Dryocopus
+Quercus
+Leiothlypis
+Chloris
+Lanius
+Gallinula
+Passerina
+Actitis
+Coragyps
+Carduelis
+Sterna
+Polioptila
+Empidonax
+Pelecanus
+Contopus
+Certhia
+Anas platyrhynchos
+Zenaida macroura
+Turdus migratorius
+Corvus brachyrhynchos
+Sturnus vulgaris
+Cardinalis cardinalis
+Branta canadensis
+Passer domesticus
+Cyanocitta cristata
+Melospiza melodia
+Agelaius phoeniceus
+Spinus tristis
+Dryobates pubescens
+Haemorhous mexicanus
+Poecile atricapillus
+Cathartes aura
+Hirundo rustica
+Melanerpes carolinus
+Columba livia
+Colaptes auratus
+Junco hyemalis
+Sitta carolinensis
+Ardea herodias
+Parus major
+Larus argentatus
+Turdus merula
+Baeolophus bicolor
+Ardea alba
+Buteo jamaicensis
+Thryothorus ludovicianus
+Quiscalus quiscula
+Setophaga coronata
+Corvus corax
+Mimus polyglottos
+Larus delawarensis
+Cyanistes caeruleus
+Erithacus rubecula
+Phalacrocorax auritus
+Fringilla coelebs
+Charadrius vociferus
+Streptopelia decaocto
+Zonotrichia albicollis
+Dumetella carolinensis
+Spizella passerina
+Columba palumbus
+Poecile carolinensis
+Geothlypis trichas
+Tachycineta bicolor
+Molothrus ater
+Troglodytes aedon
+Sialia sialis
+Pandion haliaetus
+Anas crecca
+Pica pica
+Haliaeetus leucocephalus
+Ardea cinerea
+Regulus calendula
+Leuconotopicus villosus
+Buteo buteo
+Bombycilla cedrorum
+Sayornis phoebe
+Megaceryle alcyon
+Setophaga petechia
+Larus fuscus
+Mareca strepera
+Phylloscopus collybita
+Aix sponsa
+Zonotrichia leucophrys
+Cygnus olor
+Chroicocephalus ridibundus
+Chloris chloris
+Motacilla alba
+Spatula clypeata
+Phalacrocorax carbo
+Sylvia atricapilla
+Coragyps atratus
+Fulica americana
+Carduelis carduelis
+Bucephala clangula
+Falco sparverius
+Sitta canadensis
+Gallinula chloropus
+Vireo olivaceus
+Mergus merganser
+Fulica atra
+Troglodytes troglodytes
+Falco tinnunculus
+Polioptila caerulea
+Pipilo erythrophthalmus
+Dryocopus pileatus
+Corvus corone
+Phylloscopus trochilus
+Bucephala albeola
+Podilymbus podiceps
+Circus cyaneus
+Larus marinus
+Dendrocopos major
+Buteo lineatus
+Pipilo maculatus
+Calypte anna
+Anser anser
+Egretta thula
+Archilochus colubris
+Coloeus monedula
+Turdus philomelos
+Vanellus vanellus
+Maniola jurtina
+Accipiter cooperii
+Anas acuta
+Icterus galbula
+Passerculus sandwichensis
+Spinus psaltria
+Garrulus glandarius
+Corvus cornix
+Tyrannus tyrannus
+Regulus regulus
+Passer montanus
+Setophaga ruticilla
+Mergus serrator
+Haematopus ostralegus
+Prunella modularis
+Passerina cyanea
+Aythya fuligula
+Chaetura pelagica
+Mareca americana
+Contopus virens
+Sayornis nigricans
+Pieris rapae
+Spatula discors
+Quiscalus mexicanus
+Actitis macularius
+Emberiza schoeniclus
+Myiarchus crinitus
+Toxostoma rufum
+Alauda arvensis
+Aythya collaris
+Regulus satrapa
+Sitta europaea
+Bubulcus ibis
+Podiceps cristatus
+Spinus pinus
+Egretta garzetta
+Zenaida asiatica
+Pararge aegeria
+Vireo gilvus
+Pipistrellus pipistrellus
+Calidris alpina
+Emberiza citrinella
+Acanthis flammea
+Mniotilta varia
+Catharus guttatus
+Corvus ossifragus
+Lophodytes cucullatus
+Larus canus
+Butorides virescens
+Tringa melanoleuca
+Anthus pratensis
+Circus aeruginosus
+Phasianus colchicus
+Thryomanes bewickii
+Anas rubripes
+Acridotheres tristis
+Stelgidopteryx serripennis
+Melospiza georgiana
+Gavia immer
+Leucophaeus atricilla
+Acrocephalus scirpaceus
+Spinus spinus
+Aegithalos caudatus
+Vanessa atalanta
+Aglais io
+Salmo trutta
+Nycticorax nycticorax
+Oxyura jamaicensis
+Pieris napi
+Spizella pusilla
+Turdus pilaris
+Sterna hirundo
+Setophaga americana
+Falco peregrinus
+Leiothlypis celata
+Tachybaptus ruficollis
+Linaria cannabina
+Aphelocoma californica
+Apus apus
+Accipiter nisus
+Certhia americana
+Setophaga pinus
+Haemorhous purpureus
+Mareca penelope
+Pyrrhula pyrrhula
+Calidris minutilla
+Pelecanus occidentalis
+Aythya affinis
+Somateria mollissima
+Tringa totanus
+Meleagris gallopavo
+Seiurus aurocapilla
+Pheucticus ludovicianus
+Cyanocitta stelleri
+Actitis hypoleucos
+Sphyrapicus varius
+Pieris brassicae
+Aglais urticae
+Pica hudsonia
+Milvus migrans
+Gymnorhina tibicen
+Grus grus
+Psaltriparus minimus
+Pitangus sulphuratus
+Hydroprogne caspia
+Tadorna tadorna
+Pluvialis squatarola
+Numenius arquata
+Ficedula hypoleuca
+Alcedo atthis
+Periparus ater
+Catharus ustulatus
+Riparia riparia
+Delichon urbicum
+Vireo griseus
+Grus canadensis
+Sturnella magna
+Spilopelia chinensis
+Petrochelidon pyrrhonota
+Picus viridis
+Spizelloides arborea
+Gallinago gallinago
+Sturnella neglecta
+Sylvia communis
+Phoenicurus ochruros
+Gonepteryx rhamni
+Polyommatus icarus
+Eudocimus albus
+Saxicola rubicola
+Egretta caerulea
+Clupea pallasii
+Cardellina pusilla
+Cygnus cygnus
+Hylocichla mustelina
+Morus bassanus
+Tringa flavipes
+Arenaria interpres
+Pelecanus erythrorhynchos
+Progne subis
+Haliaeetus albicilla
+Euphagus cyanocephalus
+Turdus iliacus
+Calidris alba
+Alopochen aegyptiaca
+Eremophila alpestris
+Falco columbarius
+Tyrannus melancholicus
+Poecile rufescens
+Tringa semipalmata
+Cistothorus palustris
+Tringa nebularia
+Motacilla flava
+Motacilla cinerea
+Accipiter striatus
+Cuculus canorus
+Pyronia tithonus
+Passerella iliaca
+Melozone crissalis
+Melospiza lincolnii
+Urtica dioica
+Podiceps auritus
+Acrocephalus schoenobaenus
+Grallina cyanoleuca
+Ciconia ciconia
+Piranga rubra
+Himantopus mexicanus
+Milvus milvus
+Piranga olivacea
+Aythya ferina
+Capreolus capreolus
+Coenonympha pamphilus
+Leiothlypis ruficapilla
+Zonotrichia atricapilla
+Charadrius hiaticula
+Melanerpes formicivorus
+Tachycineta thalassina
+Sayornis saya
+Oenanthe oenanthe
+Fringilla montifringilla
+Aythya americana
+Sylvia borin
+Psittacula krameri
+Aphantopus hyperantus
+Charadrius semipalmatus
+Certhia brachydactyla
+Serinus serinus
+Sterna forsteri
+Anser albifrons
+Hirundo neoxena
+Numenius phaeopus
+Plantago lanceolata
+Uria aalge
+Phoenicurus phoenicurus
+Vireo solitarius
+Dactylis glomerata
+Quercus rotundifolia
+Egretta tricolor
+Lanius ludovicianus
+Bubo virginianus
+Rhipidura leucophrys
+Gallinago delicata
+Polygonia c-album
+Sialia mexicana
+Anthus trivialis
+Rutilus rutilus
+Clangula hyemalis
+Melanerpes erythrocephalus
+Achillea millefolium
+Branta leucopsis
+Loxia curvirostra
+Trifolium repens
+Calidris pugnax
+Quiscalus major
+Anhinga anhinga
+Pheucticus melanocephalus
+Charadrius dubius
+Leiothlypis peregrina
+Vulpes vulpes
+Branta bernicla
+Cettia cetti
+Chroicocephalus philadelphia
+Tyrannus verticalis
+Anser caerulescens
+Vanessa cardui
+Ranunculus repens
+Quercus robur
+Callipepla californica
+Anthocharis cardamines
+Himantopus himantopus
+Poecile palustris
+Podiceps nigricollis
+Phalacrocorax brasilianus
+Gavia stellata
+Holcus lanatus
+Columba oenas
+Catharus fuscescens
+Icterus spurius
+Fulmarus glacialis
+Piranga ludoviciana
+Noctua pronuba
+Parkesia noveboracensis
+Fraxinus excelsior
+Empidonax minimus
+Poecile gambeli
+Plegadis falcinellus
+Zonotrichia capensis
+Eolophus roseicapilla
+Dicrurus macrocercus
+Thalasseus maximus
+Trifolium pratense
+Malurus cyaneus
+Fagus sylvatica
+Melanitta perspicillata
+Spilopelia senegalensis
+Trichoglossus haematodus
+Buteo lagopus
+Cirsium arvense
+Sylvia curruca
+Coccyzus americanus
+Vanellus miles
+Thraupis episcopus
+Caracara plancus
+Coccothraustes coccothraustes
+Contopus sordidulus
+Anthus rubescens
+Muscicapa striata
+Ondatra zibethicus
+Pycnonotus cafer
+Lophophanes cristatus
+Strix varia
+Bubulcus coromandus
+Lycaena phlaeas
+Passerina caerulea
+Lanius collurio
+Anthochaera carunculata
+Zosterops lateralis
+Platalea leucorodia
+Festuca rubra
+Thalasseus sandvicensis
+Limosa limosa
+Calidris pusilla
+Anas superciliosa
+Vireo flavifrons
+Mirounga leonina
+Halcyon smyrnensis
+Corylus avellana
+Salmo salar
+Upupa epops
+Manorina melanocephala
+Luscinia megarhynchos
+Phoxinus phoxinus
+Calluna vulgaris
+Recurvirostra avosetta
+Bombycilla garrulus
+Crataegus monogyna
+Ranunculus acris
+Phragmites australis
+Buteo platypterus
+Dryocopus martius
+Dryobates nuttallii
+Podiceps grisegena
+Troglodytes hiemalis
+Cacatua galerita
+Juncus effusus
+Spatula cyanoptera
+Rumex acetosa
+Filipendula ulmaria
+Anguilla anguilla
+Sus scrofa
+Glechoma hederacea
+Certhia familiaris
+Dryobates scalaris
+Chroicocephalus novaehollandiae
+Rhipidura albiscapa
+Coereba flaveola
+Perca fluviatilis
+Rissa tridactyla
+Ochlodes venata
+Recurvirostra americana
+Hedera helix
+Dacelo novaeguineae
+Gobio gobio
+Pyrocephalus rubinus
+Ocyphaps lophotes
+Sorbus aucuparia
+Cygnus columbianus
+Myiozetetes similis
+Vanellus chilensis
+Dendrocygna autumnalis
+Patagioenas fasciata
+Agrostis capillaris
+Emberiza calandra
+Saxicola rubetra
+Aechmophorus occidentalis
+Eudynamys scolopaceus
+Cisticola juncidis
+Pinus sylvestris
+Plantago major
+Apis mellifera
+Baeolophus inornatus
+Pluvialis apricaria
+Luscinia svecica
+Archilochus alexandri
+Empidonax difficilis
+Columbina talpacoti
+Celastrina argiolus
+Sitta pusilla
+Squalius cephalus
+Copsychus saularis
+Autographa gamma
+Chondestes grammacus
+Orthotomus sutorius
+Leptotila verreauxi
+Lepus europaeus
+Prunella vulgaris
+Auriparus flaviceps
+Lotus corniculatus
+Sturnus unicolor
+Anthoxanthum odoratum
+Melanerpes aurifrons
+Cygnus buccinator
+Empidonax traillii
+Strix aluco
+Rallus aquaticus
+Branta hutchinsii
+Poa trivialis
+Galium aparine
+Agrostis stolonifera
+Porzana carolina
+Arrhenatherum elatius
+Strepera graculina
+Acer pseudoplatanus
+Columbina passerina
+Chordeiles minor
+Icteria virens
+Selasphorus rufus
+Colluricincla harmonica
+Egretta novaehollandiae
+Avenella flexuosa
+Zenaida auriculata
+Melanitta nigra
+Heracleum sphondylium
+Lolium perenne
+Centropus sinensis
+Plectrophenax nivalis
+Pooecetes gramineus
+Cirsium vulgare
+Sambucus nigra
+Picea abies
+Rupornis magnirostris
+Columbina inca
+Geranium robertianum
+Microcarbo melanoleucos
+Coracina novaehollandiae
+Deschampsia cespitosa
+Alnus glutinosa
+Potentilla erecta
+Icterus bullockii
+Galerida cristata
+Dolichonyx oryzivorus
+Sciurus vulgaris
+Triticum aestivum
+Melanargia galathea
+Vaccinium myrtillus
+Lullula arborea
+Toxostoma curvirostre
+Threskiornis molucca
+Curruca melanocephala
+Falco subbuteo
+Prunus spinosa
+Vanellus indicus
+Limosa lapponica
+Bellis perennis
+Anthriscus sylvestris
+Pteridium aquilinum
+Plegadis chihi
+Hypericum perforatum
+Hesperiphona vespertina
+Pycnonotus sinensis
+Limnodromus scolopaceus
+Pycnonotus jocosus
+Molinia caerulea
+Aquila chrysaetos
+Lonchura punctulata
+Betula pendula
+Fregata magnificens
+Ardeola grayii
+Melanerpes uropygialis
+Veronica chamaedrys
+Platycercus elegans
+Mycteria americana
+Chenonetta jubata
+Hypochaeris radicata
+Xanthocephalus xanthocephalus
+Troglodytes pacificus
+Daucus carota
+Nyctanassa violacea
+Alliaria petiolata
+Cracticus torquatus
+Ischnura elegans
+Cottus gobio
+Agrotis exclamationis
+Regulus ignicapilla
+Pandalus jordani
+Limnodromus griseus
+Sterna paradisaea
+Cirsium palustre
+Geum urbanum
+Poa annua
+Tyrannus vociferans
+Thraupis palmarum
+Chlidonias niger
+Equisetum arvense
+Barbatula barbatula
+Lanius excubitor
+Pardalotus striatus
+Ardea purpurea
+Notiochelidon cyanoleuca
+Erinaceus europaeus
+Quercus suber
+Eudyptula minor
+Angelica sylvestris
+Poa pratensis
+Empidonax virescens
+Cygnus atratus
+Sicalis flaveola
+Platalea ajaja
+Juniperus communis
+Stellaria media
+Lythrum salicaria
+Platycercus eximius
+Harmonia axyridis
+Chamaea fasciata
+Pernis apivorus
+Spatula querquedula
+Myiarchus cinerascens
+Melanitta deglandi
+Tyto alba
+Esox lucius
+Sternula antillarum
+Amazilia tzacatl
+Oryctolagus cuniculus
+Danaus plexippus
+Tyrannus forficatus
+Vicia cracca
+Cornus sanguinea
+Xestia c-nigrum
+Limosa fedoa
+Sitta pygmaea
+Mergellus albellus
+Merops apiaster
+Alca torda
+Myiopsitta monachus
+Elymus repens
+Lathyrus pratensis
+Rumex obtusifolius
+Phalaris arundinacea
+Pilosella officinarum
+Fragaria vesca
+Acanthiza pusilla
+Opisthograptis luteolata
+Cardamine pratensis
+Selasphorus sasin
+Prinia inornata
+Ochropleura plecta
+Thymelicus sylvestris
+Rumex acetosella
+Acer platanoides
+Chamaenerion angustifolium
+Dryobates minor
+Apamea monoglypha
+Ixoreus naevius
+Artemisia vulgaris
+Idaea aversata
+Merops orientalis
+Dryopteris filix-mas
+Galium verum
+Gavia arctica
+Populus tremula
+Callipepla gambelii
+Perdix perdix
+Piaya cayana
+Bonasa umbellus
+Haematopus palliatus
+Porphyrio porphyrio
+Rallus limicola
+Cinnyris asiaticus
+Scolopax rusticola
+Microcarbo niger
+Cinclus cinclus
+Argynnis paphia
+Spiza americana
+Ichthyaetus melanocephalus
+Rumex crispus
+Streptopelia turtur
+Argentina anserina
+Caltha palustris
+Epilobium hirsutum
+Capsella bursa-pastoris
+Medicago lupulina
+Cepphus grylle
+Leucanthemum vulgare
+Elanus caeruleus
+Bombus pascuorum
+Rubus idaeus
+Euphagus carolinus
+Haliastur indus
+Eupatorium cannabinum
+Iris pseudacorus
+Salix caprea
+Ficaria verna
+Icterus cucullatus
+Tussilago farfara
+Ptilotula penicillata
+Accipiter gentilis
+Amaurornis phoenicurus
+Lapsana communis
+Lysimachia vulgaris
+Acrocephalus palustris
+Orthosia gothica
+Phalacrocorax pelagicus
+Rana temporaria
+Galium palustre
+Passerina amoena
+Sericornis frontalis
+Betula pubescens
+Protonotaria citrea
+Pachycephala rufiventris
+Solanum dulcamara
+Cairina moschata
+Cistus ladanifer
+Lasiommata megera
+Phylidonyris novaehollandiae
+Athene noctua
+Carex nigra
+Anemone nemorosa
+Melanitta fusca
+Oriolus oriolus
+Crotophaga ani
+Convolvulus arvensis
+Jacobaea vulgaris
+Lonicera periclymenum
+Rynchops niger
+Oryza sativa
+Potentilla reptans
+Carex flacca
+Coenagrion puella
+Pardalotus punctatus
+Selasphorus platycercus
+Streptopelia capicola
+Aphelocoma woodhouseii
+Pelecanus conspicillatus
+Vicia sativa
+Baeolophus atricristatus
+Parkesia motacilla
+Senecio vulgaris
+Phainopepla nitens
+Ilex aquifolium
+Leptocoma zeylonica
+Empidonax alnorum
+Leucophaeus pipixcan
+Polygonum aviculare
+Spizella pallida
+Pinus pinaster
+Lycopus europaeus
+Cecropis daurica
+Calystegia sepium
+Ajuga reptans
+Megarynchus pitangua
+Phalacrocorax sulcirostris
+Aegopodium podagraria
+Peribatodes rhomboidaria
+Molothrus bonariensis
+Bufo bufo
+Athyrium filix-femina
+Gyps fulvus
+Pipistrellus kuhlii
+Gallinula tenebrosa
+Chlidonias hybrida
+Acer campestre
+Phalaropus lobatus
+Sympetrum striolatum
+Cardellina canadensis
+Lamium galeobdolon
+Thalasseus bergii
+Pavo cristatus
+Bostrychia hagedash
+Carpinus betulus
+Passerina ciris
+Tanacetum vulgare
+Melanitta americana
+Furnarius rufus
+Dives dives
+Butorides striata
+Numenius americanus
+Cervus elaphus
+Emberiza cirlus
+Sonchus asper
+Elanus leucurus
+Silene dioica
+Panurus biarmicus
+Streptopelia tranquebarica
+Todirostrum cinereum
+Oxalis acetosella
+Prinia socialis
+Mentha aquatica
+Myadestes townsendi
+Anthus petrosus
+Ligustrum vulgare
+Poterium sanguisorba
+Sialia currucoides
+Campylorhynchus brunneicapillus
+Silene flos-cuculi
+Pinicola enucleator
+Geococcyx californianus
+Eopsaltria australis
+Chelidonium majus
+Centaurea jacea
+Sciurus carolinensis
+Phleum pratense
+Prunus avium
+Frangula alnus
+Dendrocitta vagabunda
+Scolopax minor
+Bromus hordeaceus
+Vermivora cyanoptera
+Contopus cooperi
+Coccinella septempunctata
+Impatiens glandulifera
+Stellaria graminea
+Mimus gilvus
+Dactylorhiza maculata
+Primula veris
+Wallabia bicolor
+Campanula rotundifolia
+Streptopelia semitorquata
+Jynx torquilla
+Enallagma cyathigerum
+Vicia sepium
+Aramus guarauna
+Zosterops simplex
+Brachypodium sylvaticum
+Urile penicillatus
+Noctua comes
+Pachycephala pectoralis
+Psilopogon haemacephalus
+Chenopodium album
+Sonchus oleraceus
+Charadrius alexandrinus
+Orthetrum cancellatum
+Melozone aberti
+Porphyrio melanotus
+Solidago virgaurea
+Stercorarius parasiticus
+Vaccinium vitis-idaea
+Gadus morhua
+Veronica persica
+Euonymus europaeus
+Alburnus alburnus
+Salix cinerea
+Luscinia luscinia
+Hypena proboscidalis
+Threskiornis spinicollis
+Salpinctes obsoletus
+Stachys sylvatica
+Asio flammeus
+Lamium purpureum
+Aricia agestis
+Myiarchus tuberculifer
+Cerastium fontanum
+Hippolais icterina
+Cerastium holosteoides
+Lanius cristatus
+Phoenicopterus roseus
+Circus pygargus
+Todiramphus sanctus
+Phalaropus tricolor
+Hydrocoloeus minutus
+Phylloscopus sibillatrix
+Sternula albifrons
+Neochmia temporalis
+Psilopogon viridis
+Colinus virginianus
+Patagioenas picazuro
+Crotophaga sulcirostris
+Xanthorhoe fluctuata
+Cracticus nigrogularis
+Knautia arvensis
+Rabelera holostea
+Anax imperator
+Volatinia jacarina
+Xestia xanthographa
+Hieraaetus pennatus
+Erigeron canadensis
+Juncus articulatus
+Alopecurus pratensis
+Mesapamea secalis
+Coturnix coturnix
+Melozone fusca
+Acanthorhynchus tenuirostris
+Ammodramus savannarum
+Linaria vulgaris
+Thymelicus lineola
+Circaetus gallicus
+Lichmera indistincta
+Estrilda astrild
+Tachybaptus novaehollandiae
+Dysstroma truncata
+Luzula campestris
+Cytisus scoparius
+Ictinia mississippiensis
+Pyrrhosoma nymphula
+Viburnum opulus
+Lotus pedunculatus
+Clematis vitalba
+Silene latifolia
+Megascops asio
+Apus affinis
+Ceryle rudis
+Cormobates leucophaea
+Elaenia flavogaster
+Scorzoneroides autumnalis
+Veronica officinalis
+Caligavis chrysops
+Lacanobia oleracea
+Hordeum vulgare
+Botaurus lentiginosus
+Haliastur sphenurus
+Silene vulgaris
+Heterocarpus reedi
+Amphispiza bilineata
+Megaptera novaeangliae
+Geothlypis tolmiei
+Succisa pratensis
+Clupea harengus
+Bombus terrestris
+Briza media
+Botaurus stellaris
+Bos taurus
+Ploceus velatus
+Melanogrammus aeglefinus
+Acanthiza chrysorrhoa
+Salvia rosmarinus
+Agrotis puta
+Lanius schach
+Meliphaga lewinii
+Taraxacum officinale
+Motacilla capensis
+Calcarius lapponicus
+Abramis brama
+Sphyrapicus ruber
+Veronica arvensis
+Asio otus
+Aeronautes saxatalis
+Dryopteris carthusiana
+Vanellus armatus
+Numida meleagris
+Megaceryle torquata
+Leptonychotes weddellii
+Reynoutria japonica
+Acridotheres javanicus
+Cynosurus cristatus
+Haemorhous cassinii
+Papilio machaon
+Epirrhoe alternata
+Perisoreus canadensis
+Euphorbia cyparissias
+Prunus padus
+Senecio inaequidens
+Psephotus haematonotus
+Pipistrellus pygmaeus
+Rivula sericealis
+Olea europaea
+Saxicoloides fulicatus
+Libellula quadrimaculata
+Cyanocorax yncas
+Hirundo tahitica
+Colias croceus
+Anser brachyrhynchus
+Equisetum fluviatile
+Turdoides striata
+Alectoris rufa
+Typha latifolia
+Galeopsis tetrahit
+Bucephala islandica
+Phocoena phocoena
+Eriophorum angustifolium
+Ranunculus flammula
+Glyceria fluitans
+Cyclarhis gujanensis
+Pinus halepensis
+Quelea quelea
+Phlogophora meticulosa
+Locustella naevia
+Carex panicea
+Agrimonia eupatoria
+Hypsipetes leucocephalus
+Sylvia melanocephala
+Matricaria discoidea
+Orthosia cerasi
+Carex hirta
+Histrionicus histrionicus
+Carex rostrata
+Persicaria amphibia
+Galium mollugo
+Acrocephalus arundinaceus
+Rubus caesius
+Teucrium scorodonia
+Accipiter badius
+Cacatua sanguinea
+Merops ornatus
+Empetrum nigrum
+Progne chalybea
+Lamium album
+Thraupis sayaca
+Viola riviniana
+Equisetum palustre
+Bromus sterilis
+Poa nemoralis
+Chaetura vauxi
+Erodium cicutarium
+Robinia pseudoacacia
+Hippolais polyglotta
+Bromus erectus
+Origanum vulgare
+Beryx splendens
+Rosa canina
+Aegithina tiphia
+Araschnia levana
+Ranunculus bulbosus
+Echium vulgare
+Trifolium dubium
+Grimothea monodon
+Cynanthus latirostris
+Myosotis arvensis
+Catherpes mexicanus
+Ciconia nigra
+Spilosoma lubricipeda
+Elanoides forficatus
+Nardus stricta
+Puffinus griseus
+Anser fabalis
+Dicrurus adsimilis
+Psilorhinus morio
+Pluvialis fulva
+Papaver rhoeas
+Geopelia humeralis
+Lysimachia arvensis
+Dryopteris dilatata
+Cepphus columba
+Lolium arundinaceum
+Gelochelidon nilotica
+Carpodacus erythrinus
+Hoplostethus atlanticus

@@ -1,0 +1,251 @@
+scientific_name,common_name
+Animalia,Animals
+Plantae,Plants
+Fungi,Fungi
+Bacteria,Bacteria
+Chromista,Chromists
+incertae sedis,Uncertain Classification
+Protozoa,Protozoans
+Viruses,Viruses
+Archaea,Archaea
+Chordata,Chordates (Animals with backbones)
+Tracheophyta,Vascular Plants
+Arthropoda,Arthropods (Insects, Spiders, Crustaceans)
+Basidiomycota,Club Fungi
+Mollusca,Mollusks
+Ascomycota,Sac Fungi
+Bryophyta,Mosses
+Proteobacteria,Purple Bacteria
+Ochrophyta,Golden Algae and Diatoms
+Annelida,Segmented Worms
+Cnidaria,Jellyfish, Corals and Sea Anemones
+Marchantiophyta,Liverworts
+Rhodophyta,Red Algae
+Echinodermata,Starfish, Sea Urchins and Sea Cucumbers
+Bacteroidota,Bacteroidetes
+Foraminifera,Forams (Shell-forming Protists)
+Myzozoa,Parasitic Alveolates
+Actinobacteriota,Actinobacteria (Soil Bacteria)
+Chlorophyta,Green Algae
+Porifera,Sponges
+Ciliophora,Ciliates
+Verrucomicrobiota,Verrucomicrobia
+Brachiopoda,Lamp Shells
+Cyanobacteria,Blue-green Algae
+Mycetozoa,Slime Molds
+Firmicutes,Firmicutes (Gram-positive Bacteria)
+Planctomycetota,Planctomycetes
+Bryozoa,Moss Animals
+Mucoromycota,Pin Molds
+Nematoda,Roundworms
+Acidobacteriota,Acidobacteria
+Chloroflexota,Green Non-sulfur Bacteria
+Platyhelminthes,Flatworms
+Desulfobacterota,Sulfate-reducing Bacteria
+Charophyta,Stoneworts
+Haptophyta,Coccolithophores
+Firmicutes_A,Firmicutes Group A
+Myxococcota,Myxobacteria
+Negarnaviricota,Negative-strand RNA Viruses
+Bdellovibrionota,Predatory Bacteria
+Cryptophyta,Cryptomonads
+Chytridiomycota,Chytrid Fungi
+Chaetognatha,Arrow Worms
+Oomycota,Water Molds
+Campylobacterota,Curved Bacteria
+Euglenozoa,Euglenoids
+Gemmatimonadota,Gemmatimonas Bacteria
+Rotifera,Wheel Animals
+Thermoproteota,Thermoproteota
+Chlamydiota,Chlamydia Bacteria
+Nemertea,Ribbon Worms
+Cercozoa,Cercozoans
+Spirochaetota,Spiral Bacteria
+Glomeromycota,Arbuscular Mycorrhizal Fungi
+Pisuviricota,Positive-strand RNA Viruses
+Amoebozoa,Amoebas
+Choanozoa,Collar Flagellates
+Sipuncula,Peanut Worms
+Armatimonadota,Heat-loving Bacteria
+Nitrospirota,Nitrite-oxidizing Bacteria
+Halobacteriota,Salt-loving Archaea
+Nitrospinota,Marine Nitrifying Bacteria
+Bigyra,Bigyra Protists
+Kitrinoviricota,Yellow Viruses
+Firmicutes_C,Firmicutes Group C
+Fusobacteriota,Spindle-shaped Bacteria
+Firmicutes_B,Firmicutes Group B
+Fibrobacterota,Fiber-digesting Bacteria
+Desulfobacterota_I,Sulfate-reducing Bacteria Group I
+Tardigrada,Water Bears
+Elusimicrobiota,Elusive Microbes
+Thermoplasmatota,Acid-loving Archaea
+Hemichordata,Acorn Worms
+Zoopagomycota,Parasitic Fungi
+Deinococcota,Radiation-resistant Bacteria
+Phoronida,Horseshoe Worms
+Artverviricota,Reverse-transcribing Viruses
+Duplornaviricota,Double-stranded RNA Viruses
+Ctenophora,Comb Jellies
+Calditrichota,Heat-loving Bacteria
+Picozoa,Picozoan Protists
+Cressdnaviricota,Circular DNA Viruses
+Sulcozoa,Sulcozoan Protists
+Anthocerotophyta,Hornworts
+Synergistota,Synergist Bacteria
+Sarcomastigophora,Flagellated Protozoans
+Acanthocephala,Spiny-headed Worms
+Priapulida,Penis Worms
+Uroviricota,Tailed Bacteriophages
+Cossaviricota,Double-stranded DNA Viruses
+Deferribacterota,Iron-reducing Bacteria
+Nucleocytoviricota,Giant Viruses
+Firmicutes_G,Firmicutes Group G
+Patescibacteria,Candidate Phyla Radiation
+Blastocladiomycota,Blastoclad Fungi
+Peploviricota,Protein-coated Viruses
+Kinorhyncha,Mud Dragons
+Entomophthoromycota,Insect-pathogenic Fungi
+Methanobacteriota,Methane-producing Archaea
+Firmicutes_F,Firmicutes Group F
+Aves,Birds
+Magnoliopsida,Flowering Plants (Dicots)
+Insecta,Insects
+Liliopsida,Flowering Plants (Monocots)
+Mammalia,Mammals
+Agaricomycetes,Mushroom-forming Fungi
+Polypodiopsida,Ferns
+Bryopsida,True Mosses
+Gastropoda,Snails and Slugs
+Amphibia,Amphibians
+Malacostraca,Higher Crustaceans
+Lecanoromycetes,Lichen-forming Fungi
+Arachnida,Spiders, Scorpions and Mites
+Squamata,Lizards and Snakes
+Pinopsida,Conifers
+Bivalvia,Clams and Mussels
+Gammaproteobacteria,Gamma Proteobacteria
+Polychaeta,Bristle Worms
+Bacillariophyceae,Diatoms
+Alphaproteobacteria,Alpha Proteobacteria
+Jungermanniopsida,Leafy Liverworts
+Copepoda,Copepods
+Anthozoa,Sea Anemones and Corals
+Elasmobranchii,Sharks and Rays
+Florideophyceae,Red Seaweeds
+Sordariomycetes,Sac Fungi
+Bacteroidia,Bacteroides Bacteria
+Dinophyceae,Dinoflagellates
+Phaeophyceae,Brown Algae
+Globothalamea,Foraminifera with Global Shells
+Dothideomycetes,Black Dot Fungi
+Testudines,Turtles and Tortoises
+Leotiomycetes,Earth Tongue Fungi
+Lycopodiopsida,Club Mosses
+Actinomycetia,Actinomycete Bacteria
+Clitellata,Earthworms and Leeches
+Eurotiomycetes,Penicillium and Relatives
+Sphagnopsida,Peat Mosses
+Pucciniomycetes,Rust Fungi
+Collembola,Springtails
+Cephalopoda,Octopuses, Squids and Cuttlefish
+Polytrichopsida,Hair Cap Mosses
+Ulvophyceae,Sea Lettuce and Relatives
+Demospongiae,Common Sponges
+Pezizomycetes,Cup Fungi
+Cyanobacteriia,Blue-green Algae
+Bacilli,Rod-shaped Bacteria
+Verrucomicrobiae,Verrucomicrobia
+Hydrozoa,Hydroids and Hydromedusae
+Myxomycetes,True Slime Molds
+Asteroidea,Sea Stars
+Echinoidea,Sea Urchins
+Rhynchonellata,Articulate Brachiopods
+Ophiuroidea,Brittle Stars
+Arthoniomycetes,Dot Lichens
+Planctomycetia,Planctomycete Bacteria
+Tremellomycetes,Jelly Fungi
+Prymnesiophyceae,Golden-brown Algae
+Chlorophyceae,Green Algae
+Gymnolaemata,Sea Mats
+Clostridia,Clostridium Bacteria
+Ostracoda,Seed Shrimp
+Chromadorea,Roundworms
+Diplopoda,Millipedes
+Mortierellomycetes,Soil Fungi
+Holothuroidea,Sea Cucumbers
+Marchantiopsida,Complex Thalloid Liverworts
+Maxillopoda,Barnacles and Relatives
+Ascidiacea,Sea Squirts
+Branchiopoda,Water Fleas
+Insthoviricetes,Insect Viruses
+Charophyceae,Stoneworts
+Oligotrichea,Ciliated Protozoans
+Trilobita,Trilobites
+Thermoleophilia,Heat-loving Bacteria
+Spirotrichea,Spiral Ciliates
+Cryptophyceae,Cryptomonads
+Petromyzonti,Lampreys
+Crocodylia,Crocodiles and Alligators
+Acidobacteriae,Acid-loving Bacteria
+Anaerolineae,Anaerobic Bacteria
+Chilopoda,Centipedes
+Polyplacophora,Chitons
+Myxococcia,Myxobacteria
+Crinoidea,Sea Lilies and Feather Stars
+Campylobacteria,Curved Bacteria
+Polyangia,Social Bacteria
+Peronosporea,Water Molds
+Dictyochophyceae,Silicoflagellates
+Eurotatoria,True Rotifers
+Chrysophyceae,Golden Algae
+Trebouxiophyceae,Green Algae
+Acidimicrobiia,Acid-loving Microbes
+Dacrymycetes,Jelly Fungi
+Hypotrichea,Ciliated Protozoans
+Phycisphaerae,Planctomycete Bacteria
+Trematoda,Flukes
+Stenolaemata,Sea Moss
+Scyphozoa,True Jellyfish
+Saccharomycetes,Yeasts
+Passeriformes,Perching Birds
+Anseriformes,Waterfowl
+Charadriiformes,Shorebirds and Gulls
+Lepidoptera,Butterflies and Moths
+Accipitriformes,Hawks and Eagles
+Piciformes,Woodpeckers
+Columbiformes,Pigeons and Doves
+Pelecaniformes,Pelicans and Herons
+Poales,Grasses and Sedges
+Asterales,Sunflowers and Daisies
+Lamiales,Mints and Allies
+Coleoptera,Beetles
+Fabales,Legumes
+Rosales,Roses and Relatives
+Apodiformes,Swifts and Hummingbirds
+Gruiformes,Cranes and Rails
+Caryophyllales,Pinks and Relatives
+Suliformes,Boobies and Cormorants
+Diptera,Flies and Mosquitoes
+Hymenoptera,Bees, Wasps and Ants
+Malpighiales,Willows and Relatives
+Falconiformes,Falcons
+Asparagales,Orchids and Allies
+Coraciiformes,Kingfishers and Relatives
+Podicipediformes,Grebes
+Psittaciformes,Parrots
+Galliformes,Chickens and Relatives
+Ericales,Heathers and Relatives
+Ranunculales,Buttercups and Relatives
+Gentianales,Gentians and Coffee Family
+Odonata,Dragonflies and Damselflies
+Fagales,Oaks and Beeches
+Apiales,Carrots and Relatives
+Brassicales,Mustards and Relatives
+Polypodiales,True Ferns
+Myrtales,Myrtles and Relatives
+Cuculiformes,Cuckoos
+Hemiptera,True Bugs
+Strigiformes,Owls
+Rodentia,Rodents
+Agaricales,Mushrooms 
