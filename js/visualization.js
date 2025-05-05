@@ -63,15 +63,15 @@ async function init() {
         // Load all data files
         const [kingdomData, phylaData, classesData, ordersData, familiesData, generaData, speciesData, commonNamesData] = 
             await Promise.all([
-                d3.csv('data/kingdom.csv'),
-                d3.csv('data/phyla.csv'),
+            d3.csv('data/kingdom.csv'),
+            d3.csv('data/phyla.csv'),
                 d3.csv('data/classes.csv'),
                 d3.csv('data/orders.csv'),
                 d3.csv('data/families.csv'),
                 d3.csv('data/genera.csv'),
-                d3.csv('data/species.csv'),
+            d3.csv('data/species.csv'),
                 d3.csv('data/common-names.csv')
-            ]);
+        ]);
 
         // Store data
         taxonomyData.kingdom = kingdomData || [];
@@ -230,13 +230,13 @@ function renderTaxonomicLevel(level, parent, depth) {
     segments.append('text')
         .attr('x', 5)
         .attr('y', config.barHeight / 2)
-        .attr('dy', '0.35em')
-        .text(d => {
+            .attr('dy', '0.35em')
+            .text(d => {
             const name = level === 'species' ? getDisplayName(d.species, 'species') : getDisplayName(d[level], level);
             const percentage = ((+d.occurrence_count / totalOccurrences) * 100).toFixed(1);
-            return `${name} (${percentage}%)`;
-        })
-        .style('fill', 'white')
+                return `${name} (${percentage}%)`;
+            })
+            .style('fill', 'white')
         .style('font-size', '12px')
         .style('cursor', level === 'species' ? 'default' : 'pointer')
         .on('click', (event, d) => {
@@ -398,8 +398,8 @@ function showTooltip(event, d, level, totalOccurrences) {
     const occurrences = formatNumber(d.occurrence_count);
     const individuals = formatNumber(d.individual_count || 0);
     const percentage = ((+d.occurrence_count / totalOccurrences) * 100).toFixed(1);
-    
-    d3.select('#tooltip')
+            
+            d3.select('#tooltip')
         .style('visibility', 'visible')
         .style('background-color', 'rgba(0, 0, 0, 0.8)')
         .style('color', 'white')
@@ -478,4 +478,4 @@ window.onresize = () => {
     svg.attr('width', config.width)
        .attr('height', config.height);
     createVisualization();
-};
+}; 
